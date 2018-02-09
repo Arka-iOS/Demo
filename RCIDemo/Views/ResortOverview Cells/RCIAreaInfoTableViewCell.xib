@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AreaInfoCell" rowHeight="300" id="KGk-i7-Jjw" customClass="RCIAreaInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-YI-hbA">
+                        <rect key="frame" x="16" y="40" width="288" height="109"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="109" id="ZC0-8T-0Uj"/>
+                        </constraints>
+                    </mapView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="Area Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bdy-EN-bph">
+                        <rect key="frame" x="16" y="11" width="61.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Destination Highlights " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpU-sV-gQa">
+                        <rect key="frame" x="16" y="169" width="155" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tQT-fv-Y64">
+                        <rect key="frame" x="16" y="193.5" width="288" height="90"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="90" id="vwP-k7-5aZ"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xro-oG-R20">
+                        <rect key="frame" x="153" y="279" width="15" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="4p9-ZJ-D1l"/>
+                            <constraint firstAttribute="height" constant="10" id="BjF-uE-WLQ"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="more-arrow"/>
+                        <connections>
+                            <action selector="arrowTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wR7-Xr-KQW"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zgD-YI-hbA" firstAttribute="top" secondItem="Bdy-EN-bph" secondAttribute="bottom" constant="8" id="Cok-jD-RNt"/>
+                    <constraint firstItem="gpU-sV-gQa" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="GZv-JO-9Qh"/>
+                    <constraint firstAttribute="bottom" secondItem="xro-oG-R20" secondAttribute="bottom" priority="999" constant="10.5" id="HsE-Gh-sSz"/>
+                    <constraint firstItem="zgD-YI-hbA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Z29-tB-o6c"/>
+                    <constraint firstAttribute="trailing" secondItem="zgD-YI-hbA" secondAttribute="trailing" constant="16" id="cX4-nP-iHL"/>
+                    <constraint firstItem="Bdy-EN-bph" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="egr-qp-mDL"/>
+                    <constraint firstItem="xro-oG-R20" firstAttribute="top" secondItem="tQT-fv-Y64" secondAttribute="bottom" constant="-4.5" id="ez0-AI-tV7"/>
+                    <constraint firstItem="Bdy-EN-bph" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="gun-5U-Deq"/>
+                    <constraint firstAttribute="trailing" secondItem="tQT-fv-Y64" secondAttribute="trailing" constant="16" id="l5n-8F-a7S"/>
+                    <constraint firstItem="tQT-fv-Y64" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="rlY-Am-LAc"/>
+                    <constraint firstItem="xro-oG-R20" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="xzz-4b-bHQ"/>
+                    <constraint firstItem="gpU-sV-gQa" firstAttribute="top" secondItem="zgD-YI-hbA" secondAttribute="bottom" constant="20" id="yoC-Gp-HPZ"/>
+                    <constraint firstItem="tQT-fv-Y64" firstAttribute="top" secondItem="gpU-sV-gQa" secondAttribute="bottom" constant="6.5" id="zj5-SN-ebx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="destinationHighlights" destination="tQT-fv-Y64" id="gzs-1F-cNN"/>
+                <outlet property="textHeight" destination="vwP-k7-5aZ" id="xyl-dO-jwE"/>
+            </connections>
+            <point key="canvasLocation" x="78" y="266"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="more-arrow" width="15" height="8"/>
+    </resources>
+</document>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="D6A-c0-y5o">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things you need to know" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shn-ID-i86">
+                    <rect key="frame" x="16" y="17" width="161.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open_icon" translatesAutoresizingMaskIntoConstraints="NO" id="GnI-Zf-UjY">
+                    <rect key="frame" x="336" y="18" width="23" height="23"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="PRe-I3-cQ7" firstAttribute="trailing" secondItem="GnI-Zf-UjY" secondAttribute="trailing" constant="16" id="6c7-Ac-dBZ"/>
+                <constraint firstItem="GnI-Zf-UjY" firstAttribute="top" secondItem="PRe-I3-cQ7" secondAttribute="top" constant="18" id="LNR-l2-Lhh"/>
+                <constraint firstItem="shn-ID-i86" firstAttribute="top" secondItem="PRe-I3-cQ7" secondAttribute="top" constant="17" id="XPa-5S-RPS"/>
+                <constraint firstItem="shn-ID-i86" firstAttribute="leading" secondItem="PRe-I3-cQ7" secondAttribute="leading" constant="16" id="zdm-7z-0U5"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="PRe-I3-cQ7"/>
+            <point key="canvasLocation" x="29.5" y="-78.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="open_icon" width="23" height="23"/>
+    </resources>
+</document>

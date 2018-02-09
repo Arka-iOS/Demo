@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ApplePayCell" rowHeight="87" id="KGk-i7-Jjw" customClass="RCIApplePayTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="87"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="86.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8DH-pp-4vq">
+                        <rect key="frame" x="165" y="0.0" width="155" height="87"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apple" translatesAutoresizingMaskIntoConstraints="NO" id="Cpo-Aj-1lC">
+                                <rect key="frame" x="44" y="19.5" width="37" height="47"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Czh-FC-1VN">
+                                <rect key="frame" x="83" y="35" width="23.5" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.77873355830000002" green="0.77873355830000002" blue="0.77873355830000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Czh-FC-1VN" firstAttribute="centerY" secondItem="8DH-pp-4vq" secondAttribute="centerY" id="1Jb-tc-Ybe"/>
+                            <constraint firstItem="Cpo-Aj-1lC" firstAttribute="centerY" secondItem="8DH-pp-4vq" secondAttribute="centerY" id="9Fh-0I-JKn"/>
+                            <constraint firstItem="Czh-FC-1VN" firstAttribute="leading" secondItem="Cpo-Aj-1lC" secondAttribute="trailing" constant="2" id="URP-yK-bXz"/>
+                            <constraint firstItem="Cpo-Aj-1lC" firstAttribute="centerX" secondItem="8DH-pp-4vq" secondAttribute="centerX" constant="-15" id="kNN-AF-0CR"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p37-d1-hAr">
+                        <rect key="frame" x="0.0" y="0.0" width="155" height="87"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="card" translatesAutoresizingMaskIntoConstraints="NO" id="fEW-QO-fSn">
+                                <rect key="frame" x="20.5" y="26.5" width="47" height="33"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credit Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFA-fj-5D6">
+                                <rect key="frame" x="75.5" y="36.5" width="65" height="14.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QFA-fj-5D6" firstAttribute="leading" secondItem="fEW-QO-fSn" secondAttribute="trailing" constant="8" id="CQB-FW-Asv"/>
+                            <constraint firstItem="QFA-fj-5D6" firstAttribute="centerY" secondItem="p37-d1-hAr" secondAttribute="centerY" id="Ghl-be-Tue"/>
+                            <constraint firstItem="fEW-QO-fSn" firstAttribute="top" secondItem="p37-d1-hAr" secondAttribute="top" constant="26.5" id="dkm-e7-a9l"/>
+                            <constraint firstAttribute="bottom" secondItem="fEW-QO-fSn" secondAttribute="bottom" constant="27.5" id="hGo-JP-r60"/>
+                            <constraint firstItem="QFA-fj-5D6" firstAttribute="centerX" secondItem="p37-d1-hAr" secondAttribute="centerX" constant="30" id="rNF-QL-6rU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="8DH-pp-4vq" firstAttribute="leading" secondItem="p37-d1-hAr" secondAttribute="trailing" constant="10" id="BiR-E8-NqY"/>
+                    <constraint firstItem="p37-d1-hAr" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="NBJ-8c-rV8"/>
+                    <constraint firstAttribute="bottom" secondItem="p37-d1-hAr" secondAttribute="bottom" id="ONj-b2-Ynk"/>
+                    <constraint firstItem="p37-d1-hAr" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="VTX-oN-2jI"/>
+                    <constraint firstAttribute="trailing" secondItem="8DH-pp-4vq" secondAttribute="trailing" id="gzT-Hz-qCd"/>
+                    <constraint firstItem="8DH-pp-4vq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="lDP-fF-ZeR"/>
+                    <constraint firstAttribute="bottom" secondItem="8DH-pp-4vq" secondAttribute="bottom" id="sgR-Nn-S3a"/>
+                    <constraint firstItem="8DH-pp-4vq" firstAttribute="width" secondItem="p37-d1-hAr" secondAttribute="width" id="v5x-h9-s59"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="44" y="134.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="apple" width="37" height="47"/>
+        <image name="card" width="47" height="33"/>
+    </resources>
+</document>

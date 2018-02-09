@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="RoomDetailsCell" rowHeight="147" id="KGk-i7-Jjw" customClass="RCIRoomDetailsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="147"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="146.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Room Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0h-fq-0TE">
+                        <rect key="frame" x="16" y="11" width="90.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6YL-xD-ixO">
+                        <rect key="frame" x="14" y="34" width="292" height="83"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="83" id="fQb-GB-Q7l"/>
+                        </constraints>
+                        <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separetor" translatesAutoresizingMaskIntoConstraints="NO" id="e4l-Gf-WBh">
+                        <rect key="frame" x="16" y="125" width="288" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="dVV-Kc-xZw"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="i0h-fq-0TE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="1qG-Jm-pbY"/>
+                    <constraint firstItem="i0h-fq-0TE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="1zN-PQ-naJ"/>
+                    <constraint firstItem="e4l-Gf-WBh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="4wz-dk-3t3"/>
+                    <constraint firstItem="e4l-Gf-WBh" firstAttribute="top" secondItem="6YL-xD-ixO" secondAttribute="bottom" constant="8" id="6Fz-Ml-Rdj"/>
+                    <constraint firstAttribute="trailing" secondItem="6YL-xD-ixO" secondAttribute="trailing" constant="14" id="OJg-Re-vNV"/>
+                    <constraint firstItem="6YL-xD-ixO" firstAttribute="top" secondItem="i0h-fq-0TE" secondAttribute="bottom" constant="2" id="OvD-jx-5tf"/>
+                    <constraint firstItem="6YL-xD-ixO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="PwG-kO-d8d"/>
+                    <constraint firstAttribute="trailing" secondItem="e4l-Gf-WBh" secondAttribute="trailing" constant="16" id="Se7-L1-P6C"/>
+                    <constraint firstAttribute="bottom" secondItem="e4l-Gf-WBh" secondAttribute="bottom" constant="20.5" id="pbq-hO-YmC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="84" y="182.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="separetor" width="1" height="49"/>
+    </resources>
+</document>

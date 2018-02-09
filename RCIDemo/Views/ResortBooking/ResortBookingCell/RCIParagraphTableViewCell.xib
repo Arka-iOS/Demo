@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="paragraphCell" rowHeight="160" id="KGk-i7-Jjw" customClass="RCIParagraphTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="165"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="164.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuO-Xg-WHp">
+                        <rect key="frame" x="16" y="16" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fDn-d4-M4K"/>
+                            <constraint firstAttribute="width" constant="20" id="fMR-QN-ecv"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="checkbox"/>
+                        <state key="selected" image="checked"/>
+                        <connections>
+                            <action selector="checkboxTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="HZC-aA-pZc"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I acknowledge that i have read and agree to the  terms and conditions stated in the Urgent information" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkY-AE-cmh">
+                        <rect key="frame" x="44" y="16" width="260" height="50.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NfO-Z1-FBE">
+                        <rect key="frame" x="16" y="76.5" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.77873355830000002" green="0.77873355830000002" blue="0.77873355830000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="4wf-9M-oZH"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0C-Mw-2OQ">
+                        <rect key="frame" x="16" y="92" width="288" height="57.5"/>
+                        <string key="text">As an RCI Gold member you earn 32 Savings Dollars for this transaction.This will be added to your account within 14 days.Vacation is not finalized until the 'Confirm' button is clicked  </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="C0C-Mw-2OQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="0VU-3J-U8i"/>
+                    <constraint firstItem="NfO-Z1-FBE" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="4tr-D8-nyA"/>
+                    <constraint firstItem="bkY-AE-cmh" firstAttribute="leading" secondItem="SuO-Xg-WHp" secondAttribute="trailing" constant="8" id="7rz-nK-qHK"/>
+                    <constraint firstItem="NfO-Z1-FBE" firstAttribute="top" secondItem="bkY-AE-cmh" secondAttribute="bottom" constant="10" id="B5f-Rf-5bO"/>
+                    <constraint firstItem="SuO-Xg-WHp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Ium-hs-u5y"/>
+                    <constraint firstItem="C0C-Mw-2OQ" firstAttribute="top" secondItem="NfO-Z1-FBE" secondAttribute="bottom" constant="15" id="OJG-wZ-k7d"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="C0C-Mw-2OQ" secondAttribute="bottom" constant="4.5" id="Qoi-WB-qcO"/>
+                    <constraint firstItem="bkY-AE-cmh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="ZVa-Cf-QpB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bkY-AE-cmh" secondAttribute="trailing" id="ePP-d6-8lf"/>
+                    <constraint firstItem="NfO-Z1-FBE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ech-MY-HDY"/>
+                    <constraint firstItem="C0C-Mw-2OQ" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="gHI-02-4te"/>
+                    <constraint firstItem="SuO-Xg-WHp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="yk9-2m-V7w"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="checkbox" destination="SuO-Xg-WHp" id="Gav-nb-uYf"/>
+            </connections>
+            <point key="canvasLocation" x="47" y="123"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="checkbox" width="23" height="23"/>
+        <image name="checked" width="23" height="23"/>
+    </resources>
+</document>

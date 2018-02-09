@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SuA-i9-rkR" customClass="RCIResortOverViewFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oxh-Xq-fwt">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xyr-PA-Qii">
+                            <rect key="frame" x="160" y="8" width="54" height="27"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <state key="normal" title="See More">
+                                <color key="titleColor" red="0.40385496869999998" green="0.77159546629999998" blue="0.92768377589999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="xyr-PA-Qii" firstAttribute="centerX" secondItem="Oxh-Xq-fwt" secondAttribute="centerX" id="3m8-1F-gMV"/>
+                        <constraint firstAttribute="height" constant="50" id="h7A-8n-wbg"/>
+                        <constraint firstItem="xyr-PA-Qii" firstAttribute="top" secondItem="Oxh-Xq-fwt" secondAttribute="top" constant="8" id="zkG-f7-W5e"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HV-gx-yXQ">
+                    <rect key="frame" x="0.0" y="50" width="375" height="50"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9R-0k-G5l">
+                            <rect key="frame" x="127.5" y="9.5" width="120" height="30"/>
+                            <state key="normal" title="Check Availability">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="checkAvailability:" destination="SuA-i9-rkR" eventType="touchUpInside" id="mXZ-6p-goL"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.40385496866862952" green="0.77159546626074627" blue="0.92768377590673579" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="R9R-0k-G5l" firstAttribute="centerX" secondItem="3HV-gx-yXQ" secondAttribute="centerX" id="351-nF-n1p"/>
+                        <constraint firstAttribute="height" constant="50" id="4Rp-CL-TTl"/>
+                        <constraint firstItem="R9R-0k-G5l" firstAttribute="centerY" secondItem="3HV-gx-yXQ" secondAttribute="centerY" id="JdK-cf-bAu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3HV-gx-yXQ" firstAttribute="top" secondItem="Oxh-Xq-fwt" secondAttribute="bottom" id="6HD-oK-aN9"/>
+                <constraint firstItem="3HV-gx-yXQ" firstAttribute="trailing" secondItem="f04-1I-5a7" secondAttribute="trailing" id="Cqz-L9-9oA"/>
+                <constraint firstItem="Oxh-Xq-fwt" firstAttribute="leading" secondItem="f04-1I-5a7" secondAttribute="leading" id="JXq-qX-Qds"/>
+                <constraint firstItem="Oxh-Xq-fwt" firstAttribute="top" secondItem="f04-1I-5a7" secondAttribute="top" id="RQn-PS-5qp"/>
+                <constraint firstItem="Oxh-Xq-fwt" firstAttribute="trailing" secondItem="f04-1I-5a7" secondAttribute="trailing" id="aHp-2l-T9l"/>
+                <constraint firstItem="3HV-gx-yXQ" firstAttribute="leading" secondItem="f04-1I-5a7" secondAttribute="leading" id="au7-Lz-F8K"/>
+                <constraint firstItem="3HV-gx-yXQ" firstAttribute="bottom" secondItem="f04-1I-5a7" secondAttribute="bottom" id="e0M-kk-kvz"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="f04-1I-5a7"/>
+            <point key="canvasLocation" x="-45.5" y="-71"/>
+        </view>
+    </objects>
+</document>

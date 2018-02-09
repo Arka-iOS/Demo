@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030FD98A20298DFB00C66BC4 /* RCIResortBookingContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD98820298DFB00C66BC4 /* RCIResortBookingContainerViewController.m */; };
+		030FD98F2029AD1F00C66BC4 /* RCIResortBookingContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD98E2029AD1F00C66BC4 /* RCIResortBookingContainerView.m */; };
+		030FD9962029AF5200C66BC4 /* RCIResortBookingSegmentItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD9952029AF5200C66BC4 /* RCIResortBookingSegmentItem.m */; };
+		030FD9992029BC6F00C66BC4 /* RCIResortBookingSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD9982029BC6F00C66BC4 /* RCIResortBookingSegmentView.m */; };
+		030FD9A62029F86200C66BC4 /* RCIResortBookingAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD9A42029F86200C66BC4 /* RCIResortBookingAddViewController.m */; };
+		030FD9A72029F86200C66BC4 /* RCIResortBookingAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030FD9A52029F86200C66BC4 /* RCIResortBookingAddViewController.xib */; };
+		030FD9AB2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FD9A92029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m */; };
+		030FD9AC2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030FD9AA2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib */; };
+		0312DBE9202A76430016AF41 /* RCIResortBookingFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0312DBE8202A76430016AF41 /* RCIResortBookingFooterView.m */; };
+		031E9562201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E9560201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m */; };
+		031E9563201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 031E9561201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib */; };
+		031E95662020B6530056E4E9 /* RCITableSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E95652020B6530056E4E9 /* RCITableSection.m */; };
+		031E95692020B6640056E4E9 /* RCITableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E95682020B6640056E4E9 /* RCITableRow.m */; };
+		0342FB82202BB2340014BD04 /* RCIStaticTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342FB80202BB2340014BD04 /* RCIStaticTextTableViewCell.m */; };
+		0342FB83202BB2340014BD04 /* RCIStaticTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342FB81202BB2340014BD04 /* RCIStaticTextTableViewCell.xib */; };
+		0342FB8C202BC1160014BD04 /* RCITransactionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342FB8A202BC1160014BD04 /* RCITransactionTableViewCell.m */; };
+		0342FB8D202BC1160014BD04 /* RCITransactionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342FB8B202BC1160014BD04 /* RCITransactionTableViewCell.xib */; };
+		0342FB91202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342FB8F202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m */; };
+		0342FB92202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342FB90202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib */; };
+		0342FB96202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342FB94202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.m */; };
+		0342FB97202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342FB95202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib */; };
+		0342FB9E202BE7F70014BD04 /* RCIProtectInformationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0342FB9C202BE7F70014BD04 /* RCIProtectInformationTableViewCell.m */; };
+		0342FB9F202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0342FB9D202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib */; };
+		036F902A2023210300C1624A /* RCIResortOverViewFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F90292023210300C1624A /* RCIResortOverViewFooterView.m */; };
+		036F902C2023210F00C1624A /* RCIResortOverViewFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F902B2023210F00C1624A /* RCIResortOverViewFooterView.xib */; };
+		036F902F2023539A00C1624A /* NSMutableArray+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F902E2023539A00C1624A /* NSMutableArray+Utility.m */; };
+		036F9037202469F800C1624A /* RCICheckAvailabilityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F9035202469F800C1624A /* RCICheckAvailabilityViewController.m */; };
+		036F9038202469F800C1624A /* RCICheckAvailabilityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F9036202469F800C1624A /* RCICheckAvailabilityViewController.xib */; };
+		036F90402024829800C1624A /* RCIResortBookingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F903E2024829800C1624A /* RCIResortBookingTableViewCell.m */; };
+		036F90412024829800C1624A /* RCIResortBookingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F903F2024829800C1624A /* RCIResortBookingTableViewCell.xib */; };
+		036F90442024A27100C1624A /* RCICheckAvailabilityFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */; };
+		036F90462024A2B000C1624A /* RCICheckAvailabilityFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */; };
+		0373B2C32028521A00D6E90A /* RCISearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373B2C12028521A00D6E90A /* RCISearchResultsViewController.m */; };
+		0373B2C42028521A00D6E90A /* RCISearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0373B2C22028521A00D6E90A /* RCISearchResultsViewController.xib */; };
+		0373B2CC2028683A00D6E90A /* RCISearchResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373B2CA2028683A00D6E90A /* RCISearchResultsTableViewCell.m */; };
+		0373B2CD2028683A00D6E90A /* RCISearchResultsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0373B2CB2028683A00D6E90A /* RCISearchResultsTableViewCell.xib */; };
+		0373B2D0202870BA00D6E90A /* RCIResortDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373B2CF202870BA00D6E90A /* RCIResortDetails.m */; };
+		038035B9202A799200711DF6 /* RCIResortBookingPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038035B7202A799200711DF6 /* RCIResortBookingPayViewController.m */; };
+		038035BA202A799200711DF6 /* RCIResortBookingPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038035B8202A799200711DF6 /* RCIResortBookingPayViewController.xib */; };
+		038035C2202A79C300711DF6 /* RCIResortBookingConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038035C0202A79C300711DF6 /* RCIResortBookingConfirmViewController.m */; };
+		038035C3202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038035C1202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib */; };
+		038035CB202A9EB900711DF6 /* RCIResortDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038035C9202A9EB900711DF6 /* RCIResortDetailTableViewCell.m */; };
+		038035CC202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038035CA202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib */; };
+		038035D1202AA70000711DF6 /* RCICheckInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038035CF202AA70000711DF6 /* RCICheckInTableViewCell.m */; };
+		038035D2202AA70000711DF6 /* RCICheckInTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038035D0202AA70000711DF6 /* RCICheckInTableViewCell.xib */; };
+		038A00FD202D06C7000DF448 /* RCIApplePayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A00FB202D06C7000DF448 /* RCIApplePayTableViewCell.m */; };
+		038A00FE202D06C7000DF448 /* RCIApplePayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A00FC202D06C7000DF448 /* RCIApplePayTableViewCell.xib */; };
+		038A0102202D0C45000DF448 /* RCICardDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0100202D0C45000DF448 /* RCICardDetailsTableViewCell.m */; };
+		038A0103202D0C45000DF448 /* RCICardDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A0101202D0C45000DF448 /* RCICardDetailsTableViewCell.xib */; };
+		038A0106202D2CC6000DF448 /* RCIResortBookingParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0105202D2CC6000DF448 /* RCIResortBookingParentViewController.m */; };
+		038A010D202D3795000DF448 /* RCICardInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A010B202D3795000DF448 /* RCICardInfoTableViewCell.m */; };
+		038A010E202D3795000DF448 /* RCICardInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A010C202D3795000DF448 /* RCICardInfoTableViewCell.xib */; };
+		038A0118202D3EB3000DF448 /* RCIParagraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0116202D3EB3000DF448 /* RCIParagraphTableViewCell.m */; };
+		038A0119202D3EB3000DF448 /* RCIParagraphTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A0117202D3EB3000DF448 /* RCIParagraphTableViewCell.xib */; };
+		038C18EB2008AD3400681523 /* RCITopTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18EA2008AD3400681523 /* RCITopTabViewController.m */; };
+		038C18F02008AE2700681523 /* RCITopTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18EF2008AE2700681523 /* RCITopTabBarView.m */; };
+		038C18F32008AE4200681523 /* RCITopTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18F22008AE4200681523 /* RCITopTabBarItem.m */; };
+		038C18F72008C36C00681523 /* RCIResortBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18F62008C36C00681523 /* RCIResortBannerViewController.m */; };
+		038C18FA2008C3F200681523 /* RCIResortDetailContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18F92008C3F200681523 /* RCIResortDetailContainerViewController.m */; };
+		038C18FD2008CD4200681523 /* RCIResortDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18FC2008CD4200681523 /* RCIResortDetailViewController.m */; };
+		038C19002008CF1B00681523 /* RCIResortOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18FF2008CF1B00681523 /* RCIResortOverviewViewController.m */; };
+		038C19032008CF2F00681523 /* RCIResortRatingAndReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C19022008CF2F00681523 /* RCIResortRatingAndReviewViewController.m */; };
+		038C19062008CF4500681523 /* RCIResortFlightOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C19052008CF4500681523 /* RCIResortFlightOptionViewController.m */; };
+		039ADF492011F1AC009C101A /* RCISimilarHotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF472011F1AC009C101A /* RCISimilarHotelTableViewCell.m */; };
+		039ADF4A2011F1AC009C101A /* RCISimilarHotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF482011F1AC009C101A /* RCISimilarHotelTableViewCell.xib */; };
+		039ADF4E20120715009C101A /* RCIAboutThisResortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF4C20120715009C101A /* RCIAboutThisResortTableViewCell.m */; };
+		039ADF4F20120715009C101A /* RCIAboutThisResortTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF4D20120715009C101A /* RCIAboutThisResortTableViewCell.xib */; };
+		039ADF5E20120784009C101A /* RCIRoomDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF5C20120784009C101A /* RCIRoomDetailsTableViewCell.m */; };
+		039ADF5F20120784009C101A /* RCIRoomDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF5D20120784009C101A /* RCIRoomDetailsTableViewCell.xib */; };
+		039ADF63201207A2009C101A /* RCIAreaInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF61201207A2009C101A /* RCIAreaInfoTableViewCell.m */; };
+		039ADF64201207A2009C101A /* RCIAreaInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF62201207A2009C101A /* RCIAreaInfoTableViewCell.xib */; };
+		039B8733200F90A4007ECE05 /* RCIPointValueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039B8731200F90A4007ECE05 /* RCIPointValueTableViewCell.m */; };
+		039B8734200F90A4007ECE05 /* RCIPointValueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039B8732200F90A4007ECE05 /* RCIPointValueTableViewCell.xib */; };
+		03A4658B200F70E100F750C1 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A4658A200F70E100F750C1 /* UIView+FrameHelper.m */; };
+		03A46593200F7D1400F750C1 /* ResortAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A46591200F7D1400F750C1 /* ResortAddressTableViewCell.m */; };
+		03A46594200F7D1400F750C1 /* ResortAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A46592200F7D1400F750C1 /* ResortAddressTableViewCell.xib */; };
+		03ABEAFE202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABEAFC202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m */; };
+		03ABEAFF202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ABEAFD202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib */; };
+		654BACAF1FE2687E00033FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACAE1FE2687E00033FC0 /* AppDelegate.m */; };
+		654BACB21FE2687E00033FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACB11FE2687E00033FC0 /* ViewController.m */; };
+		654BACB51FE2687E00033FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB31FE2687E00033FC0 /* Main.storyboard */; };
+		654BACB71FE2687E00033FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB61FE2687E00033FC0 /* Assets.xcassets */; };
+		654BACBA1FE2687E00033FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB81FE2687E00033FC0 /* LaunchScreen.storyboard */; };
+		654BACBD1FE2687E00033FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACBC1FE2687E00033FC0 /* main.m */; };
+		654BACC71FE2687E00033FC0 /* RCIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACC61FE2687E00033FC0 /* RCIDemoTests.m */; };
+		654BACD21FE2687E00033FC0 /* RCIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACD11FE2687E00033FC0 /* RCIDemoUITests.m */; };
+		654BACE41FE277D000033FC0 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACE31FE277D000033FC0 /* WelcomeViewController.m */; };
+		654BACE71FE2964200033FC0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACE61FE2964200033FC0 /* LoginViewController.m */; };
+		655830951FFBAB5400DA1812 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 655830941FFBAB5400DA1812 /* HomeViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		654BACC31FE2687E00033FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654BACA21FE2687E00033FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654BACA91FE2687E00033FC0;
+			remoteInfo = RCIDemo;
+		};
+		654BACCE1FE2687E00033FC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 654BACA21FE2687E00033FC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 654BACA91FE2687E00033FC0;
+			remoteInfo = RCIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030FD98720298DFB00C66BC4 /* RCIResortBookingContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingContainerViewController.h; sourceTree = "<group>"; };
+		030FD98820298DFB00C66BC4 /* RCIResortBookingContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingContainerViewController.m; sourceTree = "<group>"; };
+		030FD98D2029AD1F00C66BC4 /* RCIResortBookingContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingContainerView.h; sourceTree = "<group>"; };
+		030FD98E2029AD1F00C66BC4 /* RCIResortBookingContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingContainerView.m; sourceTree = "<group>"; };
+		030FD9942029AF5200C66BC4 /* RCIResortBookingSegmentItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingSegmentItem.h; sourceTree = "<group>"; };
+		030FD9952029AF5200C66BC4 /* RCIResortBookingSegmentItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingSegmentItem.m; sourceTree = "<group>"; };
+		030FD9972029BC6F00C66BC4 /* RCIResortBookingSegmentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingSegmentView.h; sourceTree = "<group>"; };
+		030FD9982029BC6F00C66BC4 /* RCIResortBookingSegmentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingSegmentView.m; sourceTree = "<group>"; };
+		030FD9A32029F86200C66BC4 /* RCIResortBookingAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingAddViewController.h; sourceTree = "<group>"; };
+		030FD9A42029F86200C66BC4 /* RCIResortBookingAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingAddViewController.m; sourceTree = "<group>"; };
+		030FD9A52029F86200C66BC4 /* RCIResortBookingAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortBookingAddViewController.xib; sourceTree = "<group>"; };
+		030FD9A82029FBD700C66BC4 /* RCIResortBookingVerifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingVerifyViewController.h; sourceTree = "<group>"; };
+		030FD9A92029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingVerifyViewController.m; sourceTree = "<group>"; };
+		030FD9AA2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortBookingVerifyViewController.xib; sourceTree = "<group>"; };
+		0312DBE7202A76430016AF41 /* RCIResortBookingFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingFooterView.h; sourceTree = "<group>"; };
+		0312DBE8202A76430016AF41 /* RCIResortBookingFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingFooterView.m; sourceTree = "<group>"; };
+		0312DBEA202A776A0016AF41 /* RCIResortBookingFooterDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingFooterDelegate.h; sourceTree = "<group>"; };
+		031E955F201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortAmenitiesTableViewCell.h; sourceTree = "<group>"; };
+		031E9560201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortAmenitiesTableViewCell.m; sourceTree = "<group>"; };
+		031E9561201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortAmenitiesTableViewCell.xib; sourceTree = "<group>"; };
+		031E95642020B6530056E4E9 /* RCITableSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITableSection.h; sourceTree = "<group>"; };
+		031E95652020B6530056E4E9 /* RCITableSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITableSection.m; sourceTree = "<group>"; };
+		031E95672020B6640056E4E9 /* RCITableRow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITableRow.h; sourceTree = "<group>"; };
+		031E95682020B6640056E4E9 /* RCITableRow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITableRow.m; sourceTree = "<group>"; };
+		0342FB7F202BB2340014BD04 /* RCIStaticTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIStaticTextTableViewCell.h; sourceTree = "<group>"; };
+		0342FB80202BB2340014BD04 /* RCIStaticTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIStaticTextTableViewCell.m; sourceTree = "<group>"; };
+		0342FB81202BB2340014BD04 /* RCIStaticTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIStaticTextTableViewCell.xib; sourceTree = "<group>"; };
+		0342FB89202BC1160014BD04 /* RCITransactionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITransactionTableViewCell.h; sourceTree = "<group>"; };
+		0342FB8A202BC1160014BD04 /* RCITransactionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITransactionTableViewCell.m; sourceTree = "<group>"; };
+		0342FB8B202BC1160014BD04 /* RCITransactionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITransactionTableViewCell.xib; sourceTree = "<group>"; };
+		0342FB8E202BC4DE0014BD04 /* RCIDontRiskTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIDontRiskTableViewCell.h; sourceTree = "<group>"; };
+		0342FB8F202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIDontRiskTableViewCell.m; sourceTree = "<group>"; };
+		0342FB90202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIDontRiskTableViewCell.xib; sourceTree = "<group>"; };
+		0342FB93202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIAddProtectionPointTableViewCell.h; sourceTree = "<group>"; };
+		0342FB94202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIAddProtectionPointTableViewCell.m; sourceTree = "<group>"; };
+		0342FB95202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIAddProtectionPointTableViewCell.xib; sourceTree = "<group>"; };
+		0342FB9B202BE7F70014BD04 /* RCIProtectInformationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIProtectInformationTableViewCell.h; sourceTree = "<group>"; };
+		0342FB9C202BE7F70014BD04 /* RCIProtectInformationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIProtectInformationTableViewCell.m; sourceTree = "<group>"; };
+		0342FB9D202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIProtectInformationTableViewCell.xib; sourceTree = "<group>"; };
+		036F90222022164500C1624A /* RCIExpandTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIExpandTableViewDelegate.h; sourceTree = "<group>"; };
+		036F90282023210300C1624A /* RCIResortOverViewFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortOverViewFooterView.h; sourceTree = "<group>"; };
+		036F90292023210300C1624A /* RCIResortOverViewFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortOverViewFooterView.m; sourceTree = "<group>"; };
+		036F902B2023210F00C1624A /* RCIResortOverViewFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortOverViewFooterView.xib; sourceTree = "<group>"; };
+		036F902D2023539A00C1624A /* NSMutableArray+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Utility.h"; sourceTree = "<group>"; };
+		036F902E2023539A00C1624A /* NSMutableArray+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Utility.m"; sourceTree = "<group>"; };
+		036F9034202469F800C1624A /* RCICheckAvailabilityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICheckAvailabilityViewController.h; sourceTree = "<group>"; };
+		036F9035202469F800C1624A /* RCICheckAvailabilityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICheckAvailabilityViewController.m; sourceTree = "<group>"; };
+		036F9036202469F800C1624A /* RCICheckAvailabilityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICheckAvailabilityViewController.xib; sourceTree = "<group>"; };
+		036F903D2024829800C1624A /* RCIResortBookingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingTableViewCell.h; sourceTree = "<group>"; };
+		036F903E2024829800C1624A /* RCIResortBookingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingTableViewCell.m; sourceTree = "<group>"; };
+		036F903F2024829800C1624A /* RCIResortBookingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortBookingTableViewCell.xib; sourceTree = "<group>"; };
+		036F90422024A27100C1624A /* RCICheckAvailabilityFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICheckAvailabilityFooterView.h; sourceTree = "<group>"; };
+		036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICheckAvailabilityFooterView.m; sourceTree = "<group>"; };
+		036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICheckAvailabilityFooterView.xib; sourceTree = "<group>"; };
+		0373B2C02028521A00D6E90A /* RCISearchResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchResultsViewController.h; sourceTree = "<group>"; };
+		0373B2C12028521A00D6E90A /* RCISearchResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchResultsViewController.m; sourceTree = "<group>"; };
+		0373B2C22028521A00D6E90A /* RCISearchResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchResultsViewController.xib; sourceTree = "<group>"; };
+		0373B2C92028683A00D6E90A /* RCISearchResultsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchResultsTableViewCell.h; sourceTree = "<group>"; };
+		0373B2CA2028683A00D6E90A /* RCISearchResultsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchResultsTableViewCell.m; sourceTree = "<group>"; };
+		0373B2CB2028683A00D6E90A /* RCISearchResultsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchResultsTableViewCell.xib; sourceTree = "<group>"; };
+		0373B2CE202870BA00D6E90A /* RCIResortDetails.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortDetails.h; sourceTree = "<group>"; };
+		0373B2CF202870BA00D6E90A /* RCIResortDetails.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortDetails.m; sourceTree = "<group>"; };
+		038035B6202A799200711DF6 /* RCIResortBookingPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingPayViewController.h; sourceTree = "<group>"; };
+		038035B7202A799200711DF6 /* RCIResortBookingPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingPayViewController.m; sourceTree = "<group>"; };
+		038035B8202A799200711DF6 /* RCIResortBookingPayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortBookingPayViewController.xib; sourceTree = "<group>"; };
+		038035BF202A79C300711DF6 /* RCIResortBookingConfirmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingConfirmViewController.h; sourceTree = "<group>"; };
+		038035C0202A79C300711DF6 /* RCIResortBookingConfirmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingConfirmViewController.m; sourceTree = "<group>"; };
+		038035C1202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortBookingConfirmViewController.xib; sourceTree = "<group>"; };
+		038035C8202A9EB900711DF6 /* RCIResortDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortDetailTableViewCell.h; sourceTree = "<group>"; };
+		038035C9202A9EB900711DF6 /* RCIResortDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortDetailTableViewCell.m; sourceTree = "<group>"; };
+		038035CA202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIResortDetailTableViewCell.xib; sourceTree = "<group>"; };
+		038035CE202AA70000711DF6 /* RCICheckInTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICheckInTableViewCell.h; sourceTree = "<group>"; };
+		038035CF202AA70000711DF6 /* RCICheckInTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICheckInTableViewCell.m; sourceTree = "<group>"; };
+		038035D0202AA70000711DF6 /* RCICheckInTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICheckInTableViewCell.xib; sourceTree = "<group>"; };
+		038A00FA202D06C7000DF448 /* RCIApplePayTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIApplePayTableViewCell.h; sourceTree = "<group>"; };
+		038A00FB202D06C7000DF448 /* RCIApplePayTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIApplePayTableViewCell.m; sourceTree = "<group>"; };
+		038A00FC202D06C7000DF448 /* RCIApplePayTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIApplePayTableViewCell.xib; sourceTree = "<group>"; };
+		038A00FF202D0C45000DF448 /* RCICardDetailsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICardDetailsTableViewCell.h; sourceTree = "<group>"; };
+		038A0100202D0C45000DF448 /* RCICardDetailsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICardDetailsTableViewCell.m; sourceTree = "<group>"; };
+		038A0101202D0C45000DF448 /* RCICardDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICardDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		038A0104202D2CC6000DF448 /* RCIResortBookingParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBookingParentViewController.h; sourceTree = "<group>"; };
+		038A0105202D2CC6000DF448 /* RCIResortBookingParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBookingParentViewController.m; sourceTree = "<group>"; };
+		038A010A202D3795000DF448 /* RCICardInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICardInfoTableViewCell.h; sourceTree = "<group>"; };
+		038A010B202D3795000DF448 /* RCICardInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICardInfoTableViewCell.m; sourceTree = "<group>"; };
+		038A010C202D3795000DF448 /* RCICardInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICardInfoTableViewCell.xib; sourceTree = "<group>"; };
+		038A0115202D3EB3000DF448 /* RCIParagraphTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIParagraphTableViewCell.h; sourceTree = "<group>"; };
+		038A0116202D3EB3000DF448 /* RCIParagraphTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIParagraphTableViewCell.m; sourceTree = "<group>"; };
+		038A0117202D3EB3000DF448 /* RCIParagraphTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIParagraphTableViewCell.xib; sourceTree = "<group>"; };
+		038C18E92008AD3400681523 /* RCITopTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabViewController.h; sourceTree = "<group>"; };
+		038C18EA2008AD3400681523 /* RCITopTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITopTabViewController.m; sourceTree = "<group>"; };
+		038C18EC2008AD6B00681523 /* RCITopTabrViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabrViewControllerDelegate.h; sourceTree = "<group>"; };
+		038C18EE2008AE2700681523 /* RCITopTabBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabBarView.h; sourceTree = "<group>"; };
+		038C18EF2008AE2700681523 /* RCITopTabBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITopTabBarView.m; sourceTree = "<group>"; };
+		038C18F12008AE4200681523 /* RCITopTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabBarItem.h; sourceTree = "<group>"; };
+		038C18F22008AE4200681523 /* RCITopTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITopTabBarItem.m; sourceTree = "<group>"; };
+		038C18F52008C36C00681523 /* RCIResortBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortBannerViewController.h; sourceTree = "<group>"; };
+		038C18F62008C36C00681523 /* RCIResortBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortBannerViewController.m; sourceTree = "<group>"; };
+		038C18F82008C3F200681523 /* RCIResortDetailContainerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortDetailContainerViewController.h; sourceTree = "<group>"; };
+		038C18F92008C3F200681523 /* RCIResortDetailContainerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortDetailContainerViewController.m; sourceTree = "<group>"; };
+		038C18FB2008CD4200681523 /* RCIResortDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortDetailViewController.h; sourceTree = "<group>"; };
+		038C18FC2008CD4200681523 /* RCIResortDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortDetailViewController.m; sourceTree = "<group>"; };
+		038C18FE2008CF1B00681523 /* RCIResortOverviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortOverviewViewController.h; sourceTree = "<group>"; };
+		038C18FF2008CF1B00681523 /* RCIResortOverviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortOverviewViewController.m; sourceTree = "<group>"; };
+		038C19012008CF2F00681523 /* RCIResortRatingAndReviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortRatingAndReviewViewController.h; sourceTree = "<group>"; };
+		038C19022008CF2F00681523 /* RCIResortRatingAndReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortRatingAndReviewViewController.m; sourceTree = "<group>"; };
+		038C19042008CF4500681523 /* RCIResortFlightOptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortFlightOptionViewController.h; sourceTree = "<group>"; };
+		038C19052008CF4500681523 /* RCIResortFlightOptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortFlightOptionViewController.m; sourceTree = "<group>"; };
+		039ADF462011F1AC009C101A /* RCISimilarHotelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISimilarHotelTableViewCell.h; sourceTree = "<group>"; };
+		039ADF472011F1AC009C101A /* RCISimilarHotelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISimilarHotelTableViewCell.m; sourceTree = "<group>"; };
+		039ADF482011F1AC009C101A /* RCISimilarHotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISimilarHotelTableViewCell.xib; sourceTree = "<group>"; };
+		039ADF4B20120715009C101A /* RCIAboutThisResortTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIAboutThisResortTableViewCell.h; sourceTree = "<group>"; };
+		039ADF4C20120715009C101A /* RCIAboutThisResortTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIAboutThisResortTableViewCell.m; sourceTree = "<group>"; };
+		039ADF4D20120715009C101A /* RCIAboutThisResortTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIAboutThisResortTableViewCell.xib; sourceTree = "<group>"; };
+		039ADF5B20120784009C101A /* RCIRoomDetailsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIRoomDetailsTableViewCell.h; sourceTree = "<group>"; };
+		039ADF5C20120784009C101A /* RCIRoomDetailsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIRoomDetailsTableViewCell.m; sourceTree = "<group>"; };
+		039ADF5D20120784009C101A /* RCIRoomDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIRoomDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		039ADF60201207A2009C101A /* RCIAreaInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIAreaInfoTableViewCell.h; sourceTree = "<group>"; };
+		039ADF61201207A2009C101A /* RCIAreaInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIAreaInfoTableViewCell.m; sourceTree = "<group>"; };
+		039ADF62201207A2009C101A /* RCIAreaInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIAreaInfoTableViewCell.xib; sourceTree = "<group>"; };
+		039B8730200F90A4007ECE05 /* RCIPointValueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIPointValueTableViewCell.h; sourceTree = "<group>"; };
+		039B8731200F90A4007ECE05 /* RCIPointValueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIPointValueTableViewCell.m; sourceTree = "<group>"; };
+		039B8732200F90A4007ECE05 /* RCIPointValueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIPointValueTableViewCell.xib; sourceTree = "<group>"; };
+		03A46589200F70E100F750C1 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
+		03A4658A200F70E100F750C1 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
+		03A46590200F7D1400F750C1 /* ResortAddressTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResortAddressTableViewCell.h; sourceTree = "<group>"; };
+		03A46591200F7D1400F750C1 /* ResortAddressTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResortAddressTableViewCell.m; sourceTree = "<group>"; };
+		03A46592200F7D1400F750C1 /* ResortAddressTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResortAddressTableViewCell.xib; sourceTree = "<group>"; };
+		03ABEAFB202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITransactionSummaryTableViewCell.h; sourceTree = "<group>"; };
+		03ABEAFC202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITransactionSummaryTableViewCell.m; sourceTree = "<group>"; };
+		03ABEAFD202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITransactionSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		654BACAA1FE2687E00033FC0 /* RCIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		654BACAD1FE2687E00033FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		654BACAE1FE2687E00033FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		654BACB01FE2687E00033FC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		654BACB11FE2687E00033FC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		654BACB41FE2687E00033FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		654BACB61FE2687E00033FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		654BACB91FE2687E00033FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		654BACBB1FE2687E00033FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654BACBC1FE2687E00033FC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		654BACC21FE2687E00033FC0 /* RCIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654BACC61FE2687E00033FC0 /* RCIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIDemoTests.m; sourceTree = "<group>"; };
+		654BACC81FE2687E00033FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654BACCD1FE2687E00033FC0 /* RCIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		654BACD11FE2687E00033FC0 /* RCIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIDemoUITests.m; sourceTree = "<group>"; };
+		654BACD31FE2687E00033FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654BACE21FE277D000033FC0 /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		654BACE31FE277D000033FC0 /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		654BACE51FE2964200033FC0 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		654BACE61FE2964200033FC0 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		655830931FFBAB5400DA1812 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		655830941FFBAB5400DA1812 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		654BACA71FE2687E00033FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACBF1FE2687E00033FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACCA1FE2687E00033FC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030FD97E20298D5100C66BC4 /* ResortBookingContainer */ = {
+			isa = PBXGroup;
+			children = (
+				030FD98720298DFB00C66BC4 /* RCIResortBookingContainerViewController.h */,
+				030FD98820298DFB00C66BC4 /* RCIResortBookingContainerViewController.m */,
+			);
+			path = ResortBookingContainer;
+			sourceTree = "<group>";
+		};
+		030FD98C2029ACB900C66BC4 /* ResortBooking */ = {
+			isa = PBXGroup;
+			children = (
+				030FD98D2029AD1F00C66BC4 /* RCIResortBookingContainerView.h */,
+				030FD98E2029AD1F00C66BC4 /* RCIResortBookingContainerView.m */,
+				030FD9972029BC6F00C66BC4 /* RCIResortBookingSegmentView.h */,
+				030FD9982029BC6F00C66BC4 /* RCIResortBookingSegmentView.m */,
+				030FD9942029AF5200C66BC4 /* RCIResortBookingSegmentItem.h */,
+				030FD9952029AF5200C66BC4 /* RCIResortBookingSegmentItem.m */,
+				0312DBE7202A76430016AF41 /* RCIResortBookingFooterView.h */,
+				0312DBE8202A76430016AF41 /* RCIResortBookingFooterView.m */,
+				038035C4202A9E7A00711DF6 /* ResortBookingCell */,
+			);
+			path = ResortBooking;
+			sourceTree = "<group>";
+		};
+		030FD99A2029F7F100C66BC4 /* RCIResortBooking */ = {
+			isa = PBXGroup;
+			children = (
+				038035BB202A799A00711DF6 /* ResortBookingConfirm */,
+				038035B2202A796A00711DF6 /* ResortBookingPay */,
+				030FD9A12029F83B00C66BC4 /* ResortBooking Add */,
+				030FD9A02029F82000C66BC4 /* ResortBooking Verify */,
+				030FD97E20298D5100C66BC4 /* ResortBookingContainer */,
+				038A0104202D2CC6000DF448 /* RCIResortBookingParentViewController.h */,
+				038A0105202D2CC6000DF448 /* RCIResortBookingParentViewController.m */,
+			);
+			path = RCIResortBooking;
+			sourceTree = "<group>";
+		};
+		030FD9A02029F82000C66BC4 /* ResortBooking Verify */ = {
+			isa = PBXGroup;
+			children = (
+				030FD9A82029FBD700C66BC4 /* RCIResortBookingVerifyViewController.h */,
+				030FD9A92029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m */,
+				030FD9AA2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib */,
+			);
+			path = "ResortBooking Verify";
+			sourceTree = "<group>";
+		};
+		030FD9A12029F83B00C66BC4 /* ResortBooking Add */ = {
+			isa = PBXGroup;
+			children = (
+				030FD9A32029F86200C66BC4 /* RCIResortBookingAddViewController.h */,
+				030FD9A42029F86200C66BC4 /* RCIResortBookingAddViewController.m */,
+				030FD9A52029F86200C66BC4 /* RCIResortBookingAddViewController.xib */,
+			);
+			path = "ResortBooking Add";
+			sourceTree = "<group>";
+		};
+		0323520620076EAE00D358E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0373B2CE202870BA00D6E90A /* RCIResortDetails.h */,
+				0373B2CF202870BA00D6E90A /* RCIResortDetails.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0323520720076EB800D358E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				030FD98C2029ACB900C66BC4 /* ResortBooking */,
+				0373B2C5202867D800D6E90A /* Search Results */,
+				036F90392024824000C1624A /* Check Availability */,
+				036F90242022FD7400C1624A /* ResortOverview FooterView */,
+				03A4658C200F7CA900F750C1 /* ResortOverview Cells */,
+				03730005200F41CC0011773E /* TopTabBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03235208200770FD00D358E1 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				654BACB61FE2687E00033FC0 /* Assets.xcassets */,
+				654BACAD1FE2687E00033FC0 /* AppDelegate.h */,
+				654BACAE1FE2687E00033FC0 /* AppDelegate.m */,
+				654BACB81FE2687E00033FC0 /* LaunchScreen.storyboard */,
+				654BACB31FE2687E00033FC0 /* Main.storyboard */,
+				654BACBC1FE2687E00033FC0 /* main.m */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		036F90242022FD7400C1624A /* ResortOverview FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				036F90282023210300C1624A /* RCIResortOverViewFooterView.h */,
+				036F90292023210300C1624A /* RCIResortOverViewFooterView.m */,
+				036F902B2023210F00C1624A /* RCIResortOverViewFooterView.xib */,
+			);
+			path = "ResortOverview FooterView";
+			sourceTree = "<group>";
+		};
+		036F9033202469C800C1624A /* Check Availability */ = {
+			isa = PBXGroup;
+			children = (
+				036F9034202469F800C1624A /* RCICheckAvailabilityViewController.h */,
+				036F9035202469F800C1624A /* RCICheckAvailabilityViewController.m */,
+				036F9036202469F800C1624A /* RCICheckAvailabilityViewController.xib */,
+			);
+			path = "Check Availability";
+			sourceTree = "<group>";
+		};
+		036F90392024824000C1624A /* Check Availability */ = {
+			isa = PBXGroup;
+			children = (
+				036F903D2024829800C1624A /* RCIResortBookingTableViewCell.h */,
+				036F903E2024829800C1624A /* RCIResortBookingTableViewCell.m */,
+				036F903F2024829800C1624A /* RCIResortBookingTableViewCell.xib */,
+				036F90422024A27100C1624A /* RCICheckAvailabilityFooterView.h */,
+				036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */,
+				036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */,
+			);
+			path = "Check Availability";
+			sourceTree = "<group>";
+		};
+		03730005200F41CC0011773E /* TopTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				038C18EE2008AE2700681523 /* RCITopTabBarView.h */,
+				038C18EF2008AE2700681523 /* RCITopTabBarView.m */,
+				038C18F12008AE4200681523 /* RCITopTabBarItem.h */,
+				038C18F22008AE4200681523 /* RCITopTabBarItem.m */,
+			);
+			path = TopTabBar;
+			sourceTree = "<group>";
+		};
+		0373B2BF202851EF00D6E90A /* Search Results */ = {
+			isa = PBXGroup;
+			children = (
+				0373B2C02028521A00D6E90A /* RCISearchResultsViewController.h */,
+				0373B2C12028521A00D6E90A /* RCISearchResultsViewController.m */,
+				0373B2C22028521A00D6E90A /* RCISearchResultsViewController.xib */,
+			);
+			path = "Search Results";
+			sourceTree = "<group>";
+		};
+		0373B2C5202867D800D6E90A /* Search Results */ = {
+			isa = PBXGroup;
+			children = (
+				0373B2C92028683A00D6E90A /* RCISearchResultsTableViewCell.h */,
+				0373B2CA2028683A00D6E90A /* RCISearchResultsTableViewCell.m */,
+				0373B2CB2028683A00D6E90A /* RCISearchResultsTableViewCell.xib */,
+			);
+			path = "Search Results";
+			sourceTree = "<group>";
+		};
+		038035B2202A796A00711DF6 /* ResortBookingPay */ = {
+			isa = PBXGroup;
+			children = (
+				038035B6202A799200711DF6 /* RCIResortBookingPayViewController.h */,
+				038035B7202A799200711DF6 /* RCIResortBookingPayViewController.m */,
+				038035B8202A799200711DF6 /* RCIResortBookingPayViewController.xib */,
+			);
+			path = ResortBookingPay;
+			sourceTree = "<group>";
+		};
+		038035BB202A799A00711DF6 /* ResortBookingConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				038035BF202A79C300711DF6 /* RCIResortBookingConfirmViewController.h */,
+				038035C0202A79C300711DF6 /* RCIResortBookingConfirmViewController.m */,
+				038035C1202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib */,
+			);
+			path = ResortBookingConfirm;
+			sourceTree = "<group>";
+		};
+		038035C4202A9E7A00711DF6 /* ResortBookingCell */ = {
+			isa = PBXGroup;
+			children = (
+				038035C8202A9EB900711DF6 /* RCIResortDetailTableViewCell.h */,
+				038035C9202A9EB900711DF6 /* RCIResortDetailTableViewCell.m */,
+				038035CA202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib */,
+				038035CE202AA70000711DF6 /* RCICheckInTableViewCell.h */,
+				038035CF202AA70000711DF6 /* RCICheckInTableViewCell.m */,
+				038035D0202AA70000711DF6 /* RCICheckInTableViewCell.xib */,
+				03ABEAFB202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.h */,
+				03ABEAFC202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m */,
+				03ABEAFD202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib */,
+				0342FB7F202BB2340014BD04 /* RCIStaticTextTableViewCell.h */,
+				0342FB80202BB2340014BD04 /* RCIStaticTextTableViewCell.m */,
+				0342FB81202BB2340014BD04 /* RCIStaticTextTableViewCell.xib */,
+				0342FB89202BC1160014BD04 /* RCITransactionTableViewCell.h */,
+				0342FB8A202BC1160014BD04 /* RCITransactionTableViewCell.m */,
+				0342FB8B202BC1160014BD04 /* RCITransactionTableViewCell.xib */,
+				0342FB8E202BC4DE0014BD04 /* RCIDontRiskTableViewCell.h */,
+				0342FB8F202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m */,
+				0342FB90202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib */,
+				0342FB93202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.h */,
+				0342FB94202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.m */,
+				0342FB95202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib */,
+				0342FB9B202BE7F70014BD04 /* RCIProtectInformationTableViewCell.h */,
+				0342FB9C202BE7F70014BD04 /* RCIProtectInformationTableViewCell.m */,
+				0342FB9D202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib */,
+				038A00FA202D06C7000DF448 /* RCIApplePayTableViewCell.h */,
+				038A00FB202D06C7000DF448 /* RCIApplePayTableViewCell.m */,
+				038A00FC202D06C7000DF448 /* RCIApplePayTableViewCell.xib */,
+				038A00FF202D0C45000DF448 /* RCICardDetailsTableViewCell.h */,
+				038A0100202D0C45000DF448 /* RCICardDetailsTableViewCell.m */,
+				038A0101202D0C45000DF448 /* RCICardDetailsTableViewCell.xib */,
+				038A010A202D3795000DF448 /* RCICardInfoTableViewCell.h */,
+				038A010B202D3795000DF448 /* RCICardInfoTableViewCell.m */,
+				038A010C202D3795000DF448 /* RCICardInfoTableViewCell.xib */,
+				038A0115202D3EB3000DF448 /* RCIParagraphTableViewCell.h */,
+				038A0116202D3EB3000DF448 /* RCIParagraphTableViewCell.m */,
+				038A0117202D3EB3000DF448 /* RCIParagraphTableViewCell.xib */,
+			);
+			path = ResortBookingCell;
+			sourceTree = "<group>";
+		};
+		038C18F42008AEAD00681523 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				038C18EC2008AD6B00681523 /* RCITopTabrViewControllerDelegate.h */,
+				036F90222022164500C1624A /* RCIExpandTableViewDelegate.h */,
+				0312DBEA202A776A0016AF41 /* RCIResortBookingFooterDelegate.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		03A46588200F70BE00F750C1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				03A46589200F70E100F750C1 /* UIView+FrameHelper.h */,
+				03A4658A200F70E100F750C1 /* UIView+FrameHelper.m */,
+				031E95642020B6530056E4E9 /* RCITableSection.h */,
+				031E95652020B6530056E4E9 /* RCITableSection.m */,
+				031E95672020B6640056E4E9 /* RCITableRow.h */,
+				031E95682020B6640056E4E9 /* RCITableRow.m */,
+				036F902D2023539A00C1624A /* NSMutableArray+Utility.h */,
+				036F902E2023539A00C1624A /* NSMutableArray+Utility.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		03A4658C200F7CA900F750C1 /* ResortOverview Cells */ = {
+			isa = PBXGroup;
+			children = (
+				03A46590200F7D1400F750C1 /* ResortAddressTableViewCell.h */,
+				03A46591200F7D1400F750C1 /* ResortAddressTableViewCell.m */,
+				03A46592200F7D1400F750C1 /* ResortAddressTableViewCell.xib */,
+				039B8730200F90A4007ECE05 /* RCIPointValueTableViewCell.h */,
+				039B8731200F90A4007ECE05 /* RCIPointValueTableViewCell.m */,
+				039B8732200F90A4007ECE05 /* RCIPointValueTableViewCell.xib */,
+				039ADF462011F1AC009C101A /* RCISimilarHotelTableViewCell.h */,
+				039ADF472011F1AC009C101A /* RCISimilarHotelTableViewCell.m */,
+				039ADF482011F1AC009C101A /* RCISimilarHotelTableViewCell.xib */,
+				039ADF4B20120715009C101A /* RCIAboutThisResortTableViewCell.h */,
+				039ADF4C20120715009C101A /* RCIAboutThisResortTableViewCell.m */,
+				039ADF4D20120715009C101A /* RCIAboutThisResortTableViewCell.xib */,
+				039ADF5B20120784009C101A /* RCIRoomDetailsTableViewCell.h */,
+				039ADF5C20120784009C101A /* RCIRoomDetailsTableViewCell.m */,
+				039ADF5D20120784009C101A /* RCIRoomDetailsTableViewCell.xib */,
+				039ADF60201207A2009C101A /* RCIAreaInfoTableViewCell.h */,
+				039ADF61201207A2009C101A /* RCIAreaInfoTableViewCell.m */,
+				039ADF62201207A2009C101A /* RCIAreaInfoTableViewCell.xib */,
+				031E955F201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.h */,
+				031E9560201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m */,
+				031E9561201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib */,
+			);
+			path = "ResortOverview Cells";
+			sourceTree = "<group>";
+		};
+		03A46595200F881600F750C1 /* ResortDetailControllers */ = {
+			isa = PBXGroup;
+			children = (
+				030FD99A2029F7F100C66BC4 /* RCIResortBooking */,
+				0373B2BF202851EF00D6E90A /* Search Results */,
+				036F9033202469C800C1624A /* Check Availability */,
+				03A4659A200F88E600F750C1 /* ResortDetails */,
+			);
+			path = ResortDetailControllers;
+			sourceTree = "<group>";
+		};
+		03A46596200F883B00F750C1 /* RCIResortOverView */ = {
+			isa = PBXGroup;
+			children = (
+				038C18FE2008CF1B00681523 /* RCIResortOverviewViewController.h */,
+				038C18FF2008CF1B00681523 /* RCIResortOverviewViewController.m */,
+			);
+			path = RCIResortOverView;
+			sourceTree = "<group>";
+		};
+		03A46597200F886700F750C1 /* RCIResortReview */ = {
+			isa = PBXGroup;
+			children = (
+				038C19012008CF2F00681523 /* RCIResortRatingAndReviewViewController.h */,
+				038C19022008CF2F00681523 /* RCIResortRatingAndReviewViewController.m */,
+			);
+			path = RCIResortReview;
+			sourceTree = "<group>";
+		};
+		03A46598200F887E00F750C1 /* RCIResortFlightOption */ = {
+			isa = PBXGroup;
+			children = (
+				038C19042008CF4500681523 /* RCIResortFlightOptionViewController.h */,
+				038C19052008CF4500681523 /* RCIResortFlightOptionViewController.m */,
+			);
+			path = RCIResortFlightOption;
+			sourceTree = "<group>";
+		};
+		03A46599200F88C200F750C1 /* ResortBanner */ = {
+			isa = PBXGroup;
+			children = (
+				038C18F62008C36C00681523 /* RCIResortBannerViewController.m */,
+				038C18F52008C36C00681523 /* RCIResortBannerViewController.h */,
+			);
+			path = ResortBanner;
+			sourceTree = "<group>";
+		};
+		03A4659A200F88E600F750C1 /* ResortDetails */ = {
+			isa = PBXGroup;
+			children = (
+				038C18F82008C3F200681523 /* RCIResortDetailContainerViewController.h */,
+				038C18F92008C3F200681523 /* RCIResortDetailContainerViewController.m */,
+				038C18FB2008CD4200681523 /* RCIResortDetailViewController.h */,
+				038C18FC2008CD4200681523 /* RCIResortDetailViewController.m */,
+				03A46598200F887E00F750C1 /* RCIResortFlightOption */,
+				03A46597200F886700F750C1 /* RCIResortReview */,
+				03A46596200F883B00F750C1 /* RCIResortOverView */,
+				03A46599200F88C200F750C1 /* ResortBanner */,
+			);
+			path = ResortDetails;
+			sourceTree = "<group>";
+		};
+		654BACA11FE2687E00033FC0 = {
+			isa = PBXGroup;
+			children = (
+				654BACAC1FE2687E00033FC0 /* RCIDemo */,
+				654BACC51FE2687E00033FC0 /* RCIDemoTests */,
+				654BACD01FE2687E00033FC0 /* RCIDemoUITests */,
+				654BACAB1FE2687E00033FC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		654BACAB1FE2687E00033FC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				654BACAA1FE2687E00033FC0 /* RCIDemo.app */,
+				654BACC21FE2687E00033FC0 /* RCIDemoTests.xctest */,
+				654BACCD1FE2687E00033FC0 /* RCIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654BACAC1FE2687E00033FC0 /* RCIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03A46588200F70BE00F750C1 /* Utility */,
+				038C18F42008AEAD00681523 /* Protocols */,
+				03235208200770FD00D358E1 /* Supporting files */,
+				0323520720076EB800D358E1 /* Views */,
+				0323520620076EAE00D358E1 /* Models */,
+				654BACE11FE2778D00033FC0 /* ViewControllers */,
+				654BACB01FE2687E00033FC0 /* ViewController.h */,
+				654BACB11FE2687E00033FC0 /* ViewController.m */,
+				654BACBB1FE2687E00033FC0 /* Info.plist */,
+			);
+			path = RCIDemo;
+			sourceTree = "<group>";
+		};
+		654BACC51FE2687E00033FC0 /* RCIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				654BACC61FE2687E00033FC0 /* RCIDemoTests.m */,
+				654BACC81FE2687E00033FC0 /* Info.plist */,
+			);
+			path = RCIDemoTests;
+			sourceTree = "<group>";
+		};
+		654BACD01FE2687E00033FC0 /* RCIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				654BACD11FE2687E00033FC0 /* RCIDemoUITests.m */,
+				654BACD31FE2687E00033FC0 /* Info.plist */,
+			);
+			path = RCIDemoUITests;
+			sourceTree = "<group>";
+		};
+		654BACE11FE2778D00033FC0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03A46595200F881600F750C1 /* ResortDetailControllers */,
+				654BACE21FE277D000033FC0 /* WelcomeViewController.h */,
+				654BACE31FE277D000033FC0 /* WelcomeViewController.m */,
+				654BACE51FE2964200033FC0 /* LoginViewController.h */,
+				654BACE61FE2964200033FC0 /* LoginViewController.m */,
+				655830931FFBAB5400DA1812 /* HomeViewController.h */,
+				655830941FFBAB5400DA1812 /* HomeViewController.m */,
+				038C18E92008AD3400681523 /* RCITopTabViewController.h */,
+				038C18EA2008AD3400681523 /* RCITopTabViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		654BACA91FE2687E00033FC0 /* RCIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654BACD61FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemo" */;
+			buildPhases = (
+				654BACA61FE2687E00033FC0 /* Sources */,
+				654BACA71FE2687E00033FC0 /* Frameworks */,
+				654BACA81FE2687E00033FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCIDemo;
+			productName = RCIDemo;
+			productReference = 654BACAA1FE2687E00033FC0 /* RCIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		654BACC11FE2687E00033FC0 /* RCIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654BACD91FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemoTests" */;
+			buildPhases = (
+				654BACBE1FE2687E00033FC0 /* Sources */,
+				654BACBF1FE2687E00033FC0 /* Frameworks */,
+				654BACC01FE2687E00033FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654BACC41FE2687E00033FC0 /* PBXTargetDependency */,
+			);
+			name = RCIDemoTests;
+			productName = RCIDemoTests;
+			productReference = 654BACC21FE2687E00033FC0 /* RCIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		654BACCC1FE2687E00033FC0 /* RCIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654BACDC1FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemoUITests" */;
+			buildPhases = (
+				654BACC91FE2687E00033FC0 /* Sources */,
+				654BACCA1FE2687E00033FC0 /* Frameworks */,
+				654BACCB1FE2687E00033FC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				654BACCF1FE2687E00033FC0 /* PBXTargetDependency */,
+			);
+			name = RCIDemoUITests;
+			productName = RCIDemoUITests;
+			productReference = 654BACCD1FE2687E00033FC0 /* RCIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		654BACA21FE2687E00033FC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Rci Cts";
+				TargetAttributes = {
+					654BACA91FE2687E00033FC0 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					654BACC11FE2687E00033FC0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654BACA91FE2687E00033FC0;
+					};
+					654BACCC1FE2687E00033FC0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 654BACA91FE2687E00033FC0;
+					};
+				};
+			};
+			buildConfigurationList = 654BACA51FE2687E00033FC0 /* Build configuration list for PBXProject "RCIDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 654BACA11FE2687E00033FC0;
+			productRefGroup = 654BACAB1FE2687E00033FC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				654BACA91FE2687E00033FC0 /* RCIDemo */,
+				654BACC11FE2687E00033FC0 /* RCIDemoTests */,
+				654BACCC1FE2687E00033FC0 /* RCIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		654BACA81FE2687E00033FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F90462024A2B000C1624A /* RCICheckAvailabilityFooterView.xib in Resources */,
+				0373B2CD2028683A00D6E90A /* RCISearchResultsTableViewCell.xib in Resources */,
+				0342FB92202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib in Resources */,
+				039ADF4A2011F1AC009C101A /* RCISimilarHotelTableViewCell.xib in Resources */,
+				036F90412024829800C1624A /* RCIResortBookingTableViewCell.xib in Resources */,
+				038A0119202D3EB3000DF448 /* RCIParagraphTableViewCell.xib in Resources */,
+				030FD9A72029F86200C66BC4 /* RCIResortBookingAddViewController.xib in Resources */,
+				038035C3202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib in Resources */,
+				039ADF4F20120715009C101A /* RCIAboutThisResortTableViewCell.xib in Resources */,
+				038035CC202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib in Resources */,
+				038035D2202AA70000711DF6 /* RCICheckInTableViewCell.xib in Resources */,
+				031E9563201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib in Resources */,
+				039B8734200F90A4007ECE05 /* RCIPointValueTableViewCell.xib in Resources */,
+				038035BA202A799200711DF6 /* RCIResortBookingPayViewController.xib in Resources */,
+				654BACBA1FE2687E00033FC0 /* LaunchScreen.storyboard in Resources */,
+				038A010E202D3795000DF448 /* RCICardInfoTableViewCell.xib in Resources */,
+				030FD9AC2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib in Resources */,
+				654BACB71FE2687E00033FC0 /* Assets.xcassets in Resources */,
+				654BACB51FE2687E00033FC0 /* Main.storyboard in Resources */,
+				03ABEAFF202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib in Resources */,
+				0342FB8D202BC1160014BD04 /* RCITransactionTableViewCell.xib in Resources */,
+				039ADF64201207A2009C101A /* RCIAreaInfoTableViewCell.xib in Resources */,
+				038A00FE202D06C7000DF448 /* RCIApplePayTableViewCell.xib in Resources */,
+				039ADF5F20120784009C101A /* RCIRoomDetailsTableViewCell.xib in Resources */,
+				0373B2C42028521A00D6E90A /* RCISearchResultsViewController.xib in Resources */,
+				036F9038202469F800C1624A /* RCICheckAvailabilityViewController.xib in Resources */,
+				0342FB9F202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib in Resources */,
+				038A0103202D0C45000DF448 /* RCICardDetailsTableViewCell.xib in Resources */,
+				0342FB83202BB2340014BD04 /* RCIStaticTextTableViewCell.xib in Resources */,
+				036F902C2023210F00C1624A /* RCIResortOverViewFooterView.xib in Resources */,
+				03A46594200F7D1400F750C1 /* ResortAddressTableViewCell.xib in Resources */,
+				0342FB97202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACC01FE2687E00033FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACCB1FE2687E00033FC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		654BACA61FE2687E00033FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F90442024A27100C1624A /* RCICheckAvailabilityFooterView.m in Sources */,
+				039ADF5E20120784009C101A /* RCIRoomDetailsTableViewCell.m in Sources */,
+				038035D1202AA70000711DF6 /* RCICheckInTableViewCell.m in Sources */,
+				654BACB21FE2687E00033FC0 /* ViewController.m in Sources */,
+				0342FB91202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m in Sources */,
+				0373B2CC2028683A00D6E90A /* RCISearchResultsTableViewCell.m in Sources */,
+				0342FB8C202BC1160014BD04 /* RCITransactionTableViewCell.m in Sources */,
+				654BACE41FE277D000033FC0 /* WelcomeViewController.m in Sources */,
+				039ADF63201207A2009C101A /* RCIAreaInfoTableViewCell.m in Sources */,
+				0342FB9E202BE7F70014BD04 /* RCIProtectInformationTableViewCell.m in Sources */,
+				0342FB96202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.m in Sources */,
+				0373B2D0202870BA00D6E90A /* RCIResortDetails.m in Sources */,
+				654BACBD1FE2687E00033FC0 /* main.m in Sources */,
+				038C19032008CF2F00681523 /* RCIResortRatingAndReviewViewController.m in Sources */,
+				038A010D202D3795000DF448 /* RCICardInfoTableViewCell.m in Sources */,
+				030FD9AB2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m in Sources */,
+				654BACAF1FE2687E00033FC0 /* AppDelegate.m in Sources */,
+				039ADF4E20120715009C101A /* RCIAboutThisResortTableViewCell.m in Sources */,
+				038A0102202D0C45000DF448 /* RCICardDetailsTableViewCell.m in Sources */,
+				038C19002008CF1B00681523 /* RCIResortOverviewViewController.m in Sources */,
+				030FD98F2029AD1F00C66BC4 /* RCIResortBookingContainerView.m in Sources */,
+				030FD9962029AF5200C66BC4 /* RCIResortBookingSegmentItem.m in Sources */,
+				038C18F72008C36C00681523 /* RCIResortBannerViewController.m in Sources */,
+				03ABEAFE202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m in Sources */,
+				036F902F2023539A00C1624A /* NSMutableArray+Utility.m in Sources */,
+				038C18FD2008CD4200681523 /* RCIResortDetailViewController.m in Sources */,
+				036F90402024829800C1624A /* RCIResortBookingTableViewCell.m in Sources */,
+				654BACE71FE2964200033FC0 /* LoginViewController.m in Sources */,
+				036F9037202469F800C1624A /* RCICheckAvailabilityViewController.m in Sources */,
+				030FD98A20298DFB00C66BC4 /* RCIResortBookingContainerViewController.m in Sources */,
+				036F902A2023210300C1624A /* RCIResortOverViewFooterView.m in Sources */,
+				038C18F02008AE2700681523 /* RCITopTabBarView.m in Sources */,
+				038A0106202D2CC6000DF448 /* RCIResortBookingParentViewController.m in Sources */,
+				038035B9202A799200711DF6 /* RCIResortBookingPayViewController.m in Sources */,
+				030FD9992029BC6F00C66BC4 /* RCIResortBookingSegmentView.m in Sources */,
+				038C18EB2008AD3400681523 /* RCITopTabViewController.m in Sources */,
+				0342FB82202BB2340014BD04 /* RCIStaticTextTableViewCell.m in Sources */,
+				038C19062008CF4500681523 /* RCIResortFlightOptionViewController.m in Sources */,
+				0312DBE9202A76430016AF41 /* RCIResortBookingFooterView.m in Sources */,
+				655830951FFBAB5400DA1812 /* HomeViewController.m in Sources */,
+				031E9562201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m in Sources */,
+				039B8733200F90A4007ECE05 /* RCIPointValueTableViewCell.m in Sources */,
+				038A00FD202D06C7000DF448 /* RCIApplePayTableViewCell.m in Sources */,
+				038C18FA2008C3F200681523 /* RCIResortDetailContainerViewController.m in Sources */,
+				038035C2202A79C300711DF6 /* RCIResortBookingConfirmViewController.m in Sources */,
+				039ADF492011F1AC009C101A /* RCISimilarHotelTableViewCell.m in Sources */,
+				038035CB202A9EB900711DF6 /* RCIResortDetailTableViewCell.m in Sources */,
+				03A4658B200F70E100F750C1 /* UIView+FrameHelper.m in Sources */,
+				0373B2C32028521A00D6E90A /* RCISearchResultsViewController.m in Sources */,
+				030FD9A62029F86200C66BC4 /* RCIResortBookingAddViewController.m in Sources */,
+				031E95692020B6640056E4E9 /* RCITableRow.m in Sources */,
+				031E95662020B6530056E4E9 /* RCITableSection.m in Sources */,
+				03A46593200F7D1400F750C1 /* ResortAddressTableViewCell.m in Sources */,
+				038C18F32008AE4200681523 /* RCITopTabBarItem.m in Sources */,
+				038A0118202D3EB3000DF448 /* RCIParagraphTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACBE1FE2687E00033FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654BACC71FE2687E00033FC0 /* RCIDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		654BACC91FE2687E00033FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				654BACD21FE2687E00033FC0 /* RCIDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		654BACC41FE2687E00033FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654BACA91FE2687E00033FC0 /* RCIDemo */;
+			targetProxy = 654BACC31FE2687E00033FC0 /* PBXContainerItemProxy */;
+		};
+		654BACCF1FE2687E00033FC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 654BACA91FE2687E00033FC0 /* RCIDemo */;
+			targetProxy = 654BACCE1FE2687E00033FC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		654BACB31FE2687E00033FC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654BACB41FE2687E00033FC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		654BACB81FE2687E00033FC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				654BACB91FE2687E00033FC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		654BACD41FE2687E00033FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		654BACD51FE2687E00033FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		654BACD71FE2687E00033FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RCIDemo/ViewControllers/RCIDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		654BACD81FE2687E00033FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RCIDemo/ViewControllers/RCIDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		654BACDA1FE2687E00033FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCIDemo.app/RCIDemo";
+			};
+			name = Debug;
+		};
+		654BACDB1FE2687E00033FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RCIDemo.app/RCIDemo";
+			};
+			name = Release;
+		};
+		654BACDD1FE2687E00033FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCIDemo;
+			};
+			name = Debug;
+		};
+		654BACDE1FE2687E00033FC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RCIDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Rci-Cts.RCIDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RCIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		654BACA51FE2687E00033FC0 /* Build configuration list for PBXProject "RCIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654BACD41FE2687E00033FC0 /* Debug */,
+				654BACD51FE2687E00033FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654BACD61FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654BACD71FE2687E00033FC0 /* Debug */,
+				654BACD81FE2687E00033FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654BACD91FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654BACDA1FE2687E00033FC0 /* Debug */,
+				654BACDB1FE2687E00033FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654BACDC1FE2687E00033FC0 /* Build configuration list for PBXNativeTarget "RCIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				654BACDD1FE2687E00033FC0 /* Debug */,
+				654BACDE1FE2687E00033FC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 654BACA21FE2687E00033FC0 /* Project object */;
+}

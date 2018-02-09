@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ResortDetailCell" rowHeight="156" id="KGk-i7-Jjw" customClass="RCIResortDetailTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="156"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="155.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barefoot in the keys at old Town #4934" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLe-cl-LfC">
+                        <rect key="frame" x="119" y="19" width="185" height="33.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kissimee, FL 34746, USA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qfa-B7-l4h">
+                        <rect key="frame" x="119" y="55" width="142.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image1" translatesAutoresizingMaskIntoConstraints="NO" id="JXf-Ll-HAs">
+                        <rect key="frame" x="16" y="17" width="95" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="0LL-ye-pa8"/>
+                            <constraint firstAttribute="width" constant="95" id="g9w-rf-fyY"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pwt-QD-wIS">
+                        <rect key="frame" x="0.0" y="94" width="320" height="61.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oVT-ew-gY0">
+                                <rect key="frame" x="16" y="28.5" width="288" height="33"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Before you book , review ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="what you need to know">
+                                        <attributes>
+                                            <color key="NSColor" red="0.2269891742074156" green="0.61780162193051225" blue="0.8209399287564767" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" about this resort.">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name=".SFNSText"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="oVT-ew-gY0" secondAttribute="trailing" constant="16" id="1Uq-CO-kft"/>
+                            <constraint firstItem="oVT-ew-gY0" firstAttribute="top" secondItem="Pwt-QD-wIS" secondAttribute="top" constant="28.5" id="KRJ-Iu-qMG"/>
+                            <constraint firstAttribute="bottom" secondItem="oVT-ew-gY0" secondAttribute="bottom" id="UPE-NY-kK5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="JXf-Ll-HAs" secondAttribute="bottom" priority="250" constant="17" id="3qo-hg-D9K"/>
+                    <constraint firstAttribute="trailing" secondItem="Pwt-QD-wIS" secondAttribute="trailing" id="G5y-ZT-KRV"/>
+                    <constraint firstAttribute="trailing" secondItem="rLe-cl-LfC" secondAttribute="trailing" constant="16" id="GOV-2K-sfc"/>
+                    <constraint firstItem="rLe-cl-LfC" firstAttribute="leading" secondItem="JXf-Ll-HAs" secondAttribute="trailing" constant="8" id="JdC-zu-nDq"/>
+                    <constraint firstItem="Pwt-QD-wIS" firstAttribute="top" secondItem="JXf-Ll-HAs" secondAttribute="bottom" priority="750" constant="17" id="JeK-8p-TtX"/>
+                    <constraint firstItem="qfa-B7-l4h" firstAttribute="top" secondItem="rLe-cl-LfC" secondAttribute="bottom" constant="2.5" id="ShO-he-5Br"/>
+                    <constraint firstItem="JXf-Ll-HAs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="XOl-O2-Wgm"/>
+                    <constraint firstItem="rLe-cl-LfC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="19" id="YOU-4m-eIA"/>
+                    <constraint firstItem="qfa-B7-l4h" firstAttribute="leading" secondItem="rLe-cl-LfC" secondAttribute="leading" id="e6C-Jr-qOK"/>
+                    <constraint firstAttribute="bottom" secondItem="Pwt-QD-wIS" secondAttribute="bottom" priority="750" id="rkp-4j-Ksh"/>
+                    <constraint firstItem="Pwt-QD-wIS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tix-8N-z97"/>
+                    <constraint firstItem="JXf-Ll-HAs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="v8o-3K-vgd"/>
+                    <constraint firstItem="oVT-ew-gY0" firstAttribute="leading" secondItem="JXf-Ll-HAs" secondAttribute="leading" id="z6X-UW-I2e"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="imageViewBottom" destination="rkp-4j-Ksh" id="Jap-bs-t5Q"/>
+                <outlet property="imageViewBottomWithContainer" destination="3qo-hg-D9K" id="pIw-Fz-gA4"/>
+                <outlet property="staticView" destination="Pwt-QD-wIS" id="HZw-af-IkZ"/>
+            </connections>
+            <point key="canvasLocation" x="-95" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image1" width="157" height="104"/>
+    </resources>
+</document>

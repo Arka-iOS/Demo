@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CheckInCell" rowHeight="166" id="KGk-i7-Jjw" customClass="RCICheckInTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="165.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's checking In?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvv-m0-fvc">
+                        <rect key="frame" x="16" y="11" width="134" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ziy-7z-AQe">
+                        <rect key="frame" x="16" y="40" width="288" height="1"/>
+                        <color key="backgroundColor" red="0.77873355829653956" green="0.77873355829653956" blue="0.77873355829653956" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="26z-jw-X3r"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="McP-24-HWw">
+                        <rect key="frame" x="16" y="57" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5Eh-r3-dLG"/>
+                            <constraint firstAttribute="width" constant="20" id="7DJ-a0-XFc"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="radio_button"/>
+                        <state key="selected" image="radiobutton_selected"/>
+                        <connections>
+                            <action selector="radioTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="nVq-8d-mwm"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RCI Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlM-p1-g6I">
+                        <rect key="frame" x="44" y="58.5" width="80" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LIp-Hd-rTb">
+                        <rect key="frame" x="16" y="93" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="bQa-t4-QLD"/>
+                            <constraint firstAttribute="height" constant="20" id="crF-mh-50x"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="radio_button"/>
+                        <state key="selected" image="radiobutton_selected"/>
+                        <connections>
+                            <action selector="radioTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="b5t-SO-X63"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" text="A Guest (A guest certificate is required if this reservation is for a friend or family member)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqf-wG-43c">
+                        <rect key="frame" x="44" y="91" width="260" height="50.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Ziy-7z-AQe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="93h-Wb-SRT"/>
+                    <constraint firstItem="qlM-p1-g6I" firstAttribute="top" secondItem="Ziy-7z-AQe" secondAttribute="bottom" constant="17.5" id="AbW-AR-mEh"/>
+                    <constraint firstItem="dqf-wG-43c" firstAttribute="top" secondItem="qlM-p1-g6I" secondAttribute="bottom" constant="15.5" id="H7a-Be-OtU"/>
+                    <constraint firstItem="nvv-m0-fvc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="NmT-V9-4q1"/>
+                    <constraint firstItem="LIp-Hd-rTb" firstAttribute="top" secondItem="McP-24-HWw" secondAttribute="bottom" constant="16" id="QpC-Dh-T7l"/>
+                    <constraint firstItem="qlM-p1-g6I" firstAttribute="leading" secondItem="McP-24-HWw" secondAttribute="trailing" constant="8" id="U1W-KD-syV"/>
+                    <constraint firstAttribute="trailing" secondItem="dqf-wG-43c" secondAttribute="trailing" constant="16" id="Uol-Vm-y28"/>
+                    <constraint firstItem="LIp-Hd-rTb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="XcW-AN-pfn"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="dqf-wG-43c" secondAttribute="bottom" constant="13.5" id="bHb-Lc-pQO"/>
+                    <constraint firstItem="dqf-wG-43c" firstAttribute="leading" secondItem="LIp-Hd-rTb" secondAttribute="trailing" constant="8" id="cor-NJ-uxF"/>
+                    <constraint firstItem="nvv-m0-fvc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="kzv-eN-sSL"/>
+                    <constraint firstItem="McP-24-HWw" firstAttribute="top" secondItem="Ziy-7z-AQe" secondAttribute="bottom" constant="16" id="qPI-cu-YOp"/>
+                    <constraint firstItem="McP-24-HWw" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="r7I-5P-2Up"/>
+                    <constraint firstItem="Ziy-7z-AQe" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ttz-T8-WEz"/>
+                    <constraint firstItem="Ziy-7z-AQe" firstAttribute="top" secondItem="nvv-m0-fvc" secondAttribute="bottom" constant="12" id="vir-Yx-yrP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outletCollection property="radioButtons" destination="McP-24-HWw" id="VES-qV-Zpw"/>
+                <outletCollection property="radioButtons" destination="LIp-Hd-rTb" id="N2o-ef-4Rk"/>
+            </connections>
+            <point key="canvasLocation" x="99" y="84"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="radio_button" width="23" height="23"/>
+        <image name="radiobutton_selected" width="23" height="23"/>
+    </resources>
+</document>

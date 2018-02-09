@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SimilarHotelsCell" rowHeight="143" id="PE7-9y-W87" userLabel="SimilarHotelsCell" customClass="RCISimilarHotelTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="143"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PE7-9y-W87" id="RGu-dr-rui">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="142.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner" translatesAutoresizingMaskIntoConstraints="NO" id="gMN-tf-I1I">
+                        <rect key="frame" x="10.5" y="41" width="120" height="86"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="YqE-Cg-Ssn"/>
+                            <constraint firstAttribute="height" constant="86" id="seg-1u-Dx5"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barefoot'n in the keys at usa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFb-Vg-ePJ">
+                        <rect key="frame" x="139" y="41" width="171" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="751" text="Kissimmee, FL 34746, USA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHw-Uh-cje">
+                        <rect key="frame" x="138.5" y="67" width="153" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="254" image="trip-rate" translatesAutoresizingMaskIntoConstraints="NO" id="rfC-W1-5Rp">
+                        <rect key="frame" x="138.5" y="89" width="83" height="14"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="110 reviews" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vhx-0c-2xk">
+                        <rect key="frame" x="231.5" y="88.5" width="65" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" text="Available Unit: 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLE-Hi-WYD">
+                        <rect key="frame" x="138.5" y="114" width="91" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.68818814770000003" green="0.2453046062" blue="0.081596036529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Similar Resorts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xux-9t-lzE">
+                        <rect key="frame" x="10" y="15" width="103" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="separetor" translatesAutoresizingMaskIntoConstraints="NO" id="2rU-Ah-UWs">
+                        <rect key="frame" x="0.0" y="141" width="320" height="1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="ap9-ms-lac"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gMN-tf-I1I" firstAttribute="leading" secondItem="RGu-dr-rui" secondAttribute="leading" constant="10.5" id="94K-c4-1cM"/>
+                    <constraint firstItem="aLE-Hi-WYD" firstAttribute="top" secondItem="rfC-W1-5Rp" secondAttribute="bottom" constant="11" id="B9J-Ie-LAf"/>
+                    <constraint firstItem="2rU-Ah-UWs" firstAttribute="leading" secondItem="RGu-dr-rui" secondAttribute="leading" id="BWc-w8-I9L"/>
+                    <constraint firstItem="rfC-W1-5Rp" firstAttribute="top" secondItem="XHw-Uh-cje" secondAttribute="bottom" constant="7.5" id="Hz4-3K-Ozp"/>
+                    <constraint firstItem="XHw-Uh-cje" firstAttribute="top" secondItem="tFb-Vg-ePJ" secondAttribute="bottom" constant="8" id="K1Q-cB-5IM"/>
+                    <constraint firstItem="xux-9t-lzE" firstAttribute="top" secondItem="RGu-dr-rui" secondAttribute="top" constant="15" id="OXt-pj-yGl"/>
+                    <constraint firstItem="gMN-tf-I1I" firstAttribute="top" secondItem="xux-9t-lzE" secondAttribute="bottom" priority="750" constant="8" id="Og5-0e-WyU"/>
+                    <constraint firstItem="tFb-Vg-ePJ" firstAttribute="top" secondItem="gMN-tf-I1I" secondAttribute="top" id="T83-XS-0ph"/>
+                    <constraint firstItem="gMN-tf-I1I" firstAttribute="top" secondItem="xux-9t-lzE" secondAttribute="top" priority="250" id="VTm-Go-r5w"/>
+                    <constraint firstItem="xux-9t-lzE" firstAttribute="leading" secondItem="RGu-dr-rui" secondAttribute="leading" constant="10" id="XZp-kO-Of7"/>
+                    <constraint firstAttribute="trailing" secondItem="tFb-Vg-ePJ" secondAttribute="trailing" constant="10" id="ZQ8-w6-q6o"/>
+                    <constraint firstItem="2rU-Ah-UWs" firstAttribute="top" secondItem="aLE-Hi-WYD" secondAttribute="bottom" constant="12.5" id="eVo-Pc-JX2"/>
+                    <constraint firstAttribute="bottom" secondItem="2rU-Ah-UWs" secondAttribute="bottom" constant="0.5" id="fP0-HF-N7u"/>
+                    <constraint firstItem="Vhx-0c-2xk" firstAttribute="leading" secondItem="rfC-W1-5Rp" secondAttribute="trailing" constant="10" id="fth-Ct-Ldi"/>
+                    <constraint firstAttribute="trailing" secondItem="2rU-Ah-UWs" secondAttribute="trailing" id="gbq-pu-h98"/>
+                    <constraint firstItem="tFb-Vg-ePJ" firstAttribute="leading" secondItem="gMN-tf-I1I" secondAttribute="trailing" constant="8" id="h8X-wz-Zxx"/>
+                    <constraint firstItem="aLE-Hi-WYD" firstAttribute="leading" secondItem="tFb-Vg-ePJ" secondAttribute="leading" id="pfb-QK-aGa"/>
+                    <constraint firstItem="XHw-Uh-cje" firstAttribute="leading" secondItem="tFb-Vg-ePJ" secondAttribute="leading" id="sHD-5e-zxc"/>
+                    <constraint firstItem="rfC-W1-5Rp" firstAttribute="leading" secondItem="tFb-Vg-ePJ" secondAttribute="leading" id="sHF-pn-fmK"/>
+                    <constraint firstItem="Vhx-0c-2xk" firstAttribute="centerY" secondItem="rfC-W1-5Rp" secondAttribute="centerY" id="tsH-Xe-UL9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="0HW-ua-RVg"/>
+            <connections>
+                <outlet property="availableUnit" destination="aLE-Hi-WYD" id="llt-EL-PVp"/>
+                <outlet property="resortAddress" destination="XHw-Uh-cje" id="Qhc-CU-QOY"/>
+                <outlet property="resortImage" destination="gMN-tf-I1I" id="Kf1-YA-1Qy"/>
+                <outlet property="resortName" destination="tFb-Vg-ePJ" id="TaY-na-uh3"/>
+                <outlet property="similarResortLabel" destination="xux-9t-lzE" id="fxP-jH-YvC"/>
+                <outlet property="topAlignWithSimilarResortLabel" destination="VTm-Go-r5w" id="V0U-me-2y9"/>
+                <outlet property="topSpaceWithSimilarResortLabel" destination="Og5-0e-WyU" id="vnC-ep-iPQ"/>
+            </connections>
+            <point key="canvasLocation" x="43" y="280.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="banner" width="375" height="211"/>
+        <image name="separetor" width="1" height="49"/>
+        <image name="trip-rate" width="83" height="14"/>
+    </resources>
+</document>
