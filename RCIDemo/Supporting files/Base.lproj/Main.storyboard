@@ -258,7 +258,6 @@
                         <outlet property="switchPwdBtn" destination="J2K-Cw-S9U" id="rnK-yF-6nM"/>
                         <outlet property="userNameInput" destination="Z7h-80-6Zm" id="1Xk-Ue-Xsq"/>
                         <outlet property="userNameLbl" destination="ITc-Ar-Uat" id="w8T-B6-lWD"/>
-                        <segue destination="gIC-X5-guc" kind="modal" identifier="navigateToHome" id="R6m-6o-MmS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kfo-Nm-xbG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -268,7 +267,7 @@
         <!--Home View Controller-->
         <scene sceneID="7Mn-tc-I2h">
             <objects>
-                <viewController id="gIC-X5-guc" customClass="HomeViewController" sceneMemberID="viewController">
+                <viewController restorationIdentifier="HomeViewController" storyboardIdentifier="HomeViewController" id="gIC-X5-guc" customClass="HomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zEF-Nm-edQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="1425"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -675,8 +674,8 @@
                                                 <color key="textColor" red="0.31764705879999999" green="0.6588235294" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Allow push notifications to know the amazing discounts  instantly" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxC-Rn-BzK">
-                                                <rect key="frame" x="90" y="33" width="220" height="40"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Allow push notifications to know the amazing discounts  instantly" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxC-Rn-BzK">
+                                                <rect key="frame" x="90" y="35.5" width="220" height="37"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="220" id="qQ9-so-vsa"/>
                                                 </constraints>

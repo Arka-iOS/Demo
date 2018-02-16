@@ -69,9 +69,9 @@
 
 - (void)ativateConstraints {
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-2-[titleLabel]-2-|" options:0 metrics:nil views:self.views]];
-    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-44-[titleLabel]-5-[segmentNoImageView(36)]" options:0 metrics:nil views:self.views]];
+    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-25-[titleLabel]-5-[segmentNoImageView(36)]" options:0 metrics:nil views:self.views]];
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[separator(07)]|" options:0 metrics:nil views:self.views]];
-    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-38-[separator(49)]" options:0 metrics:nil views:self.views]];
+    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-8-[separator(49)]" options:0 metrics:nil views:self.views]];
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:[segmentNoImageView(36)]" options:0 metrics:nil views:self.views]];
 
     [NSLayoutConstraint activateConstraints:@[[NSLayoutConstraint constraintWithItem:self.segmentNoImageView attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0]]];

@@ -11,7 +11,8 @@
 
 @interface RCITableSection : NSObject
 @property (nonatomic, strong) NSArray *rows;
-@property (nonatomic, assign) CGFloat sectionHeaderHeight;;
-@property (nonatomic, assign) CGFloat sectionFooterHeight;;
+@property (nonatomic, strong) NSString *sectionTitle;
+@property (nonatomic, assign) CGFloat sectionHeaderHeight;
+@property (nonatomic, assign) CGFloat sectionFooterHeight;
 
 @end

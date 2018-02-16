@@ -11,4 +11,6 @@
 
 @interface RCITableRow : NSObject
 @property (nonatomic, copy, nullable) UITableViewCell * _Nonnull (^ loadCell)(NSIndexPath *_Nonnull);
+@property (nonatomic, copy, nullable) void (^ didSelectRow)(NSIndexPath *_Nonnull);
+
 @end

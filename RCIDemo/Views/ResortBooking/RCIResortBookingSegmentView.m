@@ -58,18 +58,16 @@ static const NSInteger TagOffset = 600;
     self.metricsDictionary = [NSMutableDictionary dictionary];
     self.viewsDictionary = [NSMutableDictionary dictionary];
     [self.metricsDictionary setObject:@([[UIScreen mainScreen] bounds].size.width / self.totalSegments) forKey:@"segmentWidth"];
-    [self.metricsDictionary setObject:@(49) forKey:@"segmentHeight"];
+    [self.metricsDictionary setObject:@(69) forKey:@"segmentHeight"];
 }
 
 - (void)setupView {
     [self configureConstraintMetrics];
-
-    self.background = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"top_bg"]];
+    self.background = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"bg-top-1"]];
     self.background.translatesAutoresizingMaskIntoConstraints = NO;
     [self addSubview:self.background];
     [self.viewsDictionary setObject:self.background forKey:@"background"];
 
-    
     NSInteger index = 0;
     
     while (index < self.totalSegments) {
@@ -81,6 +79,7 @@ static const NSInteger TagOffset = 600;
         [self.viewsDictionary setObject:segmentItem forKey:[self getTabItemNameForIndex:index]];
         index++;
     }
+
     [self setupVerticalConstraints];
     [self setupHorizontalConstraints];
 }
@@ -90,8 +89,8 @@ static const NSInteger TagOffset = 600;
         NSString *segmentItemName = [self getTabItemNameForIndex:i];
         [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|[%@(segmentHeight)]", segmentItemName] options:0 metrics:self.metricsDictionary views:self.viewsDictionary]];
     }
+   
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[background]|" options:0 metrics:nil views:self.viewsDictionary]];
-    
 }
 
 - (void)setupHorizontalConstraints {
@@ -106,7 +105,6 @@ static const NSInteger TagOffset = 600;
     self.horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:horizontalConstraintString options:0 metrics:self.metricsDictionary views:self.viewsDictionary];
     [NSLayoutConstraint activateConstraints:self.horizontalConstraints];
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[background]|" options:0 metrics:nil views:self.viewsDictionary]];
-    
 }
 
 

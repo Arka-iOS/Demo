@@ -61,6 +61,8 @@
 		038A010E202D3795000DF448 /* RCICardInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A010C202D3795000DF448 /* RCICardInfoTableViewCell.xib */; };
 		038A0118202D3EB3000DF448 /* RCIParagraphTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A0116202D3EB3000DF448 /* RCIParagraphTableViewCell.m */; };
 		038A0119202D3EB3000DF448 /* RCIParagraphTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A0117202D3EB3000DF448 /* RCIParagraphTableViewCell.xib */; };
+		038A1EC120337AB40062A1C1 /* RCISearchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038A1EBF20337AB40062A1C1 /* RCISearchScreenViewController.m */; };
+		038A1EC220337AB40062A1C1 /* RCISearchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038A1EC020337AB40062A1C1 /* RCISearchScreenViewController.xib */; };
 		038C18EB2008AD3400681523 /* RCITopTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18EA2008AD3400681523 /* RCITopTabViewController.m */; };
 		038C18F02008AE2700681523 /* RCITopTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18EF2008AE2700681523 /* RCITopTabBarView.m */; };
 		038C18F32008AE4200681523 /* RCITopTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18F22008AE4200681523 /* RCITopTabBarItem.m */; };
@@ -70,6 +72,8 @@
 		038C19002008CF1B00681523 /* RCIResortOverviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C18FF2008CF1B00681523 /* RCIResortOverviewViewController.m */; };
 		038C19032008CF2F00681523 /* RCIResortRatingAndReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C19022008CF2F00681523 /* RCIResortRatingAndReviewViewController.m */; };
 		038C19062008CF4500681523 /* RCIResortFlightOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038C19052008CF4500681523 /* RCIResortFlightOptionViewController.m */; };
+		038FC1D420353659000B79A5 /* RCITimeLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038FC1D220353659000B79A5 /* RCITimeLineViewController.m */; };
+		038FC1D520353659000B79A5 /* RCITimeLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038FC1D320353659000B79A5 /* RCITimeLineViewController.xib */; };
 		039ADF492011F1AC009C101A /* RCISimilarHotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF472011F1AC009C101A /* RCISimilarHotelTableViewCell.m */; };
 		039ADF4A2011F1AC009C101A /* RCISimilarHotelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF482011F1AC009C101A /* RCISimilarHotelTableViewCell.xib */; };
 		039ADF4E20120715009C101A /* RCIAboutThisResortTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039ADF4C20120715009C101A /* RCIAboutThisResortTableViewCell.m */; };
@@ -80,13 +84,38 @@
 		039ADF64201207A2009C101A /* RCIAreaInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039ADF62201207A2009C101A /* RCIAreaInfoTableViewCell.xib */; };
 		039B8733200F90A4007ECE05 /* RCIPointValueTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039B8731200F90A4007ECE05 /* RCIPointValueTableViewCell.m */; };
 		039B8734200F90A4007ECE05 /* RCIPointValueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039B8732200F90A4007ECE05 /* RCIPointValueTableViewCell.xib */; };
+		039CDE462036144400D22D2E /* RCITimelineLocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CDE442036144400D22D2E /* RCITimelineLocationTableViewCell.m */; };
+		039CDE472036144400D22D2E /* RCITimelineLocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CDE452036144400D22D2E /* RCITimelineLocationTableViewCell.xib */; };
+		039CDE4E20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CDE4C20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.m */; };
+		039CDE4F20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CDE4D20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.xib */; };
+		039CDE5620365C2700D22D2E /* RCITimeLineStaticTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CDE5420365C2700D22D2E /* RCITimeLineStaticTableViewCell.m */; };
+		039CDE5720365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CDE5520365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib */; };
+		039CDE5B20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CDE5920366F6E00D22D2E /* RCITimeLineTipsTableViewCell.m */; };
+		039CDE5C20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CDE5A20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib */; };
+		039CDE632036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 039CDE612036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m */; };
+		039CDE642036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039CDE622036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib */; };
 		03A4658B200F70E100F750C1 /* UIView+FrameHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A4658A200F70E100F750C1 /* UIView+FrameHelper.m */; };
 		03A46593200F7D1400F750C1 /* ResortAddressTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A46591200F7D1400F750C1 /* ResortAddressTableViewCell.m */; };
 		03A46594200F7D1400F750C1 /* ResortAddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A46592200F7D1400F750C1 /* ResortAddressTableViewCell.xib */; };
 		03ABEAFE202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ABEAFC202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m */; };
 		03ABEAFF202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03ABEAFD202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib */; };
+		03D43A88203241990027D6F2 /* RCIOffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43A86203241990027D6F2 /* RCIOffersViewController.m */; };
+		03D43A89203241990027D6F2 /* RCIOffersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43A87203241990027D6F2 /* RCIOffersViewController.xib */; };
+		03D43A8D203241AD0027D6F2 /* RCISearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43A8B203241AD0027D6F2 /* RCISearchViewController.m */; };
+		03D43A8E203241AD0027D6F2 /* RCISearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43A8C203241AD0027D6F2 /* RCISearchViewController.xib */; };
+		03D43A92203241C00027D6F2 /* RCIVacationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43A90203241C00027D6F2 /* RCIVacationsViewController.m */; };
+		03D43A93203241C00027D6F2 /* RCIVacationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43A91203241C00027D6F2 /* RCIVacationsViewController.xib */; };
+		03D43A9A20324BFD0027D6F2 /* RCIProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43A9820324BFD0027D6F2 /* RCIProfileViewController.m */; };
+		03D43A9B20324BFD0027D6F2 /* RCIProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43A9920324BFD0027D6F2 /* RCIProfileViewController.xib */; };
+		03D43AA520328C370027D6F2 /* RCISearchParameterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43AA320328C370027D6F2 /* RCISearchParameterTableViewCell.m */; };
+		03D43AA620328C370027D6F2 /* RCISearchParameterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43AA420328C370027D6F2 /* RCISearchParameterTableViewCell.xib */; };
+		03D43AAC20328CDF0027D6F2 /* RCISearchParameterHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D43AAB20328CDF0027D6F2 /* RCISearchParameterHeader.m */; };
+		03D43AAE20328CEA0027D6F2 /* RCISearchParameterHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03D43AAD20328CEA0027D6F2 /* RCISearchParameterHeader.xib */; };
+		03F4DCE72033A42A0027978C /* RCISearchResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4DCE52033A42A0027978C /* RCISearchResultTableViewCell.m */; };
+		03F4DCE82033A42A0027978C /* RCISearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03F4DCE62033A42A0027978C /* RCISearchResultTableViewCell.xib */; };
+		03F4DCEB2033DBAE0027978C /* RCIRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4DCEA2033DBAE0027978C /* RCIRegion.m */; };
+		03F4DCF32033E5590027978C /* RCISearchScreenSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03F4DCF22033E5590027978C /* RCISearchScreenSectionHeaderView.m */; };
 		654BACAF1FE2687E00033FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACAE1FE2687E00033FC0 /* AppDelegate.m */; };
-		654BACB21FE2687E00033FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654BACB11FE2687E00033FC0 /* ViewController.m */; };
 		654BACB51FE2687E00033FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB31FE2687E00033FC0 /* Main.storyboard */; };
 		654BACB71FE2687E00033FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB61FE2687E00033FC0 /* Assets.xcassets */; };
 		654BACBA1FE2687E00033FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654BACB81FE2687E00033FC0 /* LaunchScreen.storyboard */; };
@@ -204,6 +233,9 @@
 		038A0115202D3EB3000DF448 /* RCIParagraphTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIParagraphTableViewCell.h; sourceTree = "<group>"; };
 		038A0116202D3EB3000DF448 /* RCIParagraphTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIParagraphTableViewCell.m; sourceTree = "<group>"; };
 		038A0117202D3EB3000DF448 /* RCIParagraphTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIParagraphTableViewCell.xib; sourceTree = "<group>"; };
+		038A1EBE20337AB40062A1C1 /* RCISearchScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchScreenViewController.h; sourceTree = "<group>"; };
+		038A1EBF20337AB40062A1C1 /* RCISearchScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchScreenViewController.m; sourceTree = "<group>"; };
+		038A1EC020337AB40062A1C1 /* RCISearchScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchScreenViewController.xib; sourceTree = "<group>"; };
 		038C18E92008AD3400681523 /* RCITopTabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabViewController.h; sourceTree = "<group>"; };
 		038C18EA2008AD3400681523 /* RCITopTabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITopTabViewController.m; sourceTree = "<group>"; };
 		038C18EC2008AD6B00681523 /* RCITopTabrViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITopTabrViewControllerDelegate.h; sourceTree = "<group>"; };
@@ -223,6 +255,9 @@
 		038C19022008CF2F00681523 /* RCIResortRatingAndReviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortRatingAndReviewViewController.m; sourceTree = "<group>"; };
 		038C19042008CF4500681523 /* RCIResortFlightOptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIResortFlightOptionViewController.h; sourceTree = "<group>"; };
 		038C19052008CF4500681523 /* RCIResortFlightOptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIResortFlightOptionViewController.m; sourceTree = "<group>"; };
+		038FC1D120353659000B79A5 /* RCITimeLineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimeLineViewController.h; sourceTree = "<group>"; };
+		038FC1D220353659000B79A5 /* RCITimeLineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimeLineViewController.m; sourceTree = "<group>"; };
+		038FC1D320353659000B79A5 /* RCITimeLineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimeLineViewController.xib; sourceTree = "<group>"; };
 		039ADF462011F1AC009C101A /* RCISimilarHotelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISimilarHotelTableViewCell.h; sourceTree = "<group>"; };
 		039ADF472011F1AC009C101A /* RCISimilarHotelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISimilarHotelTableViewCell.m; sourceTree = "<group>"; };
 		039ADF482011F1AC009C101A /* RCISimilarHotelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISimilarHotelTableViewCell.xib; sourceTree = "<group>"; };
@@ -238,6 +273,21 @@
 		039B8730200F90A4007ECE05 /* RCIPointValueTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIPointValueTableViewCell.h; sourceTree = "<group>"; };
 		039B8731200F90A4007ECE05 /* RCIPointValueTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIPointValueTableViewCell.m; sourceTree = "<group>"; };
 		039B8732200F90A4007ECE05 /* RCIPointValueTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIPointValueTableViewCell.xib; sourceTree = "<group>"; };
+		039CDE432036144400D22D2E /* RCITimelineLocationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimelineLocationTableViewCell.h; sourceTree = "<group>"; };
+		039CDE442036144400D22D2E /* RCITimelineLocationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimelineLocationTableViewCell.m; sourceTree = "<group>"; };
+		039CDE452036144400D22D2E /* RCITimelineLocationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimelineLocationTableViewCell.xib; sourceTree = "<group>"; };
+		039CDE4B20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimeLineTravelDateTableViewCell.h; sourceTree = "<group>"; };
+		039CDE4C20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimeLineTravelDateTableViewCell.m; sourceTree = "<group>"; };
+		039CDE4D20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimeLineTravelDateTableViewCell.xib; sourceTree = "<group>"; };
+		039CDE5320365C2700D22D2E /* RCITimeLineStaticTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimeLineStaticTableViewCell.h; sourceTree = "<group>"; };
+		039CDE5420365C2700D22D2E /* RCITimeLineStaticTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimeLineStaticTableViewCell.m; sourceTree = "<group>"; };
+		039CDE5520365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimeLineStaticTableViewCell.xib; sourceTree = "<group>"; };
+		039CDE5820366F6E00D22D2E /* RCITimeLineTipsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimeLineTipsTableViewCell.h; sourceTree = "<group>"; };
+		039CDE5920366F6E00D22D2E /* RCITimeLineTipsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimeLineTipsTableViewCell.m; sourceTree = "<group>"; };
+		039CDE5A20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimeLineTipsTableViewCell.xib; sourceTree = "<group>"; };
+		039CDE602036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimelLineThingsToDoTableViewCell.h; sourceTree = "<group>"; };
+		039CDE612036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimelLineThingsToDoTableViewCell.m; sourceTree = "<group>"; };
+		039CDE622036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimelLineThingsToDoTableViewCell.xib; sourceTree = "<group>"; };
 		03A46589200F70E100F750C1 /* UIView+FrameHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+FrameHelper.h"; sourceTree = "<group>"; };
 		03A4658A200F70E100F750C1 /* UIView+FrameHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+FrameHelper.m"; sourceTree = "<group>"; };
 		03A46590200F7D1400F750C1 /* ResortAddressTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResortAddressTableViewCell.h; sourceTree = "<group>"; };
@@ -246,11 +296,34 @@
 		03ABEAFB202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITransactionSummaryTableViewCell.h; sourceTree = "<group>"; };
 		03ABEAFC202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITransactionSummaryTableViewCell.m; sourceTree = "<group>"; };
 		03ABEAFD202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITransactionSummaryTableViewCell.xib; sourceTree = "<group>"; };
+		03D43A85203241990027D6F2 /* RCIOffersViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIOffersViewController.h; sourceTree = "<group>"; };
+		03D43A86203241990027D6F2 /* RCIOffersViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIOffersViewController.m; sourceTree = "<group>"; };
+		03D43A87203241990027D6F2 /* RCIOffersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIOffersViewController.xib; sourceTree = "<group>"; };
+		03D43A8A203241AD0027D6F2 /* RCISearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchViewController.h; sourceTree = "<group>"; };
+		03D43A8B203241AD0027D6F2 /* RCISearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchViewController.m; sourceTree = "<group>"; };
+		03D43A8C203241AD0027D6F2 /* RCISearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchViewController.xib; sourceTree = "<group>"; };
+		03D43A8F203241C00027D6F2 /* RCIVacationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIVacationsViewController.h; sourceTree = "<group>"; };
+		03D43A90203241C00027D6F2 /* RCIVacationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIVacationsViewController.m; sourceTree = "<group>"; };
+		03D43A91203241C00027D6F2 /* RCIVacationsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIVacationsViewController.xib; sourceTree = "<group>"; };
+		03D43A9720324BFD0027D6F2 /* RCIProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIProfileViewController.h; sourceTree = "<group>"; };
+		03D43A9820324BFD0027D6F2 /* RCIProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIProfileViewController.m; sourceTree = "<group>"; };
+		03D43A9920324BFD0027D6F2 /* RCIProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIProfileViewController.xib; sourceTree = "<group>"; };
+		03D43AA220328C370027D6F2 /* RCISearchParameterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchParameterTableViewCell.h; sourceTree = "<group>"; };
+		03D43AA320328C370027D6F2 /* RCISearchParameterTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchParameterTableViewCell.m; sourceTree = "<group>"; };
+		03D43AA420328C370027D6F2 /* RCISearchParameterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchParameterTableViewCell.xib; sourceTree = "<group>"; };
+		03D43AAA20328CDF0027D6F2 /* RCISearchParameterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchParameterHeader.h; sourceTree = "<group>"; };
+		03D43AAB20328CDF0027D6F2 /* RCISearchParameterHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchParameterHeader.m; sourceTree = "<group>"; };
+		03D43AAD20328CEA0027D6F2 /* RCISearchParameterHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchParameterHeader.xib; sourceTree = "<group>"; };
+		03F4DCE42033A42A0027978C /* RCISearchResultTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchResultTableViewCell.h; sourceTree = "<group>"; };
+		03F4DCE52033A42A0027978C /* RCISearchResultTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchResultTableViewCell.m; sourceTree = "<group>"; };
+		03F4DCE62033A42A0027978C /* RCISearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		03F4DCE92033DBAE0027978C /* RCIRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIRegion.h; sourceTree = "<group>"; };
+		03F4DCEA2033DBAE0027978C /* RCIRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIRegion.m; sourceTree = "<group>"; };
+		03F4DCF12033E5590027978C /* RCISearchScreenSectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchScreenSectionHeaderView.h; sourceTree = "<group>"; };
+		03F4DCF22033E5590027978C /* RCISearchScreenSectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchScreenSectionHeaderView.m; sourceTree = "<group>"; };
 		654BACAA1FE2687E00033FC0 /* RCIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RCIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654BACAD1FE2687E00033FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		654BACAE1FE2687E00033FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		654BACB01FE2687E00033FC0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		654BACB11FE2687E00033FC0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		654BACB41FE2687E00033FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		654BACB61FE2687E00033FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654BACB91FE2687E00033FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -320,7 +393,7 @@
 			path = ResortBooking;
 			sourceTree = "<group>";
 		};
-		030FD99A2029F7F100C66BC4 /* RCIResortBooking */ = {
+		030FD99A2029F7F100C66BC4 /* ResortBooking */ = {
 			isa = PBXGroup;
 			children = (
 				038035BB202A799A00711DF6 /* ResortBookingConfirm */,
@@ -331,7 +404,7 @@
 				038A0104202D2CC6000DF448 /* RCIResortBookingParentViewController.h */,
 				038A0105202D2CC6000DF448 /* RCIResortBookingParentViewController.m */,
 			);
-			path = RCIResortBooking;
+			path = ResortBooking;
 			sourceTree = "<group>";
 		};
 		030FD9A02029F82000C66BC4 /* ResortBooking Verify */ = {
@@ -359,6 +432,8 @@
 			children = (
 				0373B2CE202870BA00D6E90A /* RCIResortDetails.h */,
 				0373B2CF202870BA00D6E90A /* RCIResortDetails.m */,
+				03F4DCE92033DBAE0027978C /* RCIRegion.h */,
+				03F4DCEA2033DBAE0027978C /* RCIRegion.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -366,9 +441,11 @@
 		0323520720076EB800D358E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				039CDE422036141B00D22D2E /* TimeLine */,
+				03D43AA020328C090027D6F2 /* Search */,
 				030FD98C2029ACB900C66BC4 /* ResortBooking */,
-				0373B2C5202867D800D6E90A /* Search Results */,
-				036F90392024824000C1624A /* Check Availability */,
+				0373B2C5202867D800D6E90A /* SearchResults */,
+				036F90392024824000C1624A /* CheckAvailability */,
 				036F90242022FD7400C1624A /* ResortOverview FooterView */,
 				03A4658C200F7CA900F750C1 /* ResortOverview Cells */,
 				03730005200F41CC0011773E /* TopTabBar */,
@@ -409,7 +486,7 @@
 			path = "Check Availability";
 			sourceTree = "<group>";
 		};
-		036F90392024824000C1624A /* Check Availability */ = {
+		036F90392024824000C1624A /* CheckAvailability */ = {
 			isa = PBXGroup;
 			children = (
 				036F903D2024829800C1624A /* RCIResortBookingTableViewCell.h */,
@@ -419,7 +496,7 @@
 				036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */,
 				036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */,
 			);
-			path = "Check Availability";
+			path = CheckAvailability;
 			sourceTree = "<group>";
 		};
 		03730005200F41CC0011773E /* TopTabBar */ = {
@@ -443,14 +520,14 @@
 			path = "Search Results";
 			sourceTree = "<group>";
 		};
-		0373B2C5202867D800D6E90A /* Search Results */ = {
+		0373B2C5202867D800D6E90A /* SearchResults */ = {
 			isa = PBXGroup;
 			children = (
 				0373B2C92028683A00D6E90A /* RCISearchResultsTableViewCell.h */,
 				0373B2CA2028683A00D6E90A /* RCISearchResultsTableViewCell.m */,
 				0373B2CB2028683A00D6E90A /* RCISearchResultsTableViewCell.xib */,
 			);
-			path = "Search Results";
+			path = SearchResults;
 			sourceTree = "<group>";
 		};
 		038035B2202A796A00711DF6 /* ResortBookingPay */ = {
@@ -516,6 +593,16 @@
 			path = ResortBookingCell;
 			sourceTree = "<group>";
 		};
+		038A1EBA20337A520062A1C1 /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				038A1EBE20337AB40062A1C1 /* RCISearchScreenViewController.h */,
+				038A1EBF20337AB40062A1C1 /* RCISearchScreenViewController.m */,
+				038A1EC020337AB40062A1C1 /* RCISearchScreenViewController.xib */,
+			);
+			path = SearchScreen;
+			sourceTree = "<group>";
+		};
 		038C18F42008AEAD00681523 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
@@ -524,6 +611,38 @@
 				0312DBEA202A776A0016AF41 /* RCIResortBookingFooterDelegate.h */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		038FC1CD20353635000B79A5 /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				038FC1D120353659000B79A5 /* RCITimeLineViewController.h */,
+				038FC1D220353659000B79A5 /* RCITimeLineViewController.m */,
+				038FC1D320353659000B79A5 /* RCITimeLineViewController.xib */,
+			);
+			path = TimeLine;
+			sourceTree = "<group>";
+		};
+		039CDE422036141B00D22D2E /* TimeLine */ = {
+			isa = PBXGroup;
+			children = (
+				039CDE432036144400D22D2E /* RCITimelineLocationTableViewCell.h */,
+				039CDE442036144400D22D2E /* RCITimelineLocationTableViewCell.m */,
+				039CDE452036144400D22D2E /* RCITimelineLocationTableViewCell.xib */,
+				039CDE4B20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.h */,
+				039CDE4C20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.m */,
+				039CDE4D20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.xib */,
+				039CDE5320365C2700D22D2E /* RCITimeLineStaticTableViewCell.h */,
+				039CDE5420365C2700D22D2E /* RCITimeLineStaticTableViewCell.m */,
+				039CDE5520365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib */,
+				039CDE5820366F6E00D22D2E /* RCITimeLineTipsTableViewCell.h */,
+				039CDE5920366F6E00D22D2E /* RCITimeLineTipsTableViewCell.m */,
+				039CDE5A20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib */,
+				039CDE602036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.h */,
+				039CDE612036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m */,
+				039CDE622036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib */,
+			);
+			path = TimeLine;
 			sourceTree = "<group>";
 		};
 		03A46588200F70BE00F750C1 /* Utility */ = {
@@ -569,17 +688,6 @@
 			path = "ResortOverview Cells";
 			sourceTree = "<group>";
 		};
-		03A46595200F881600F750C1 /* ResortDetailControllers */ = {
-			isa = PBXGroup;
-			children = (
-				030FD99A2029F7F100C66BC4 /* RCIResortBooking */,
-				0373B2BF202851EF00D6E90A /* Search Results */,
-				036F9033202469C800C1624A /* Check Availability */,
-				03A4659A200F88E600F750C1 /* ResortDetails */,
-			);
-			path = ResortDetailControllers;
-			sourceTree = "<group>";
-		};
 		03A46596200F883B00F750C1 /* RCIResortOverView */ = {
 			isa = PBXGroup;
 			children = (
@@ -610,8 +718,8 @@
 		03A46599200F88C200F750C1 /* ResortBanner */ = {
 			isa = PBXGroup;
 			children = (
-				038C18F62008C36C00681523 /* RCIResortBannerViewController.m */,
 				038C18F52008C36C00681523 /* RCIResortBannerViewController.h */,
+				038C18F62008C36C00681523 /* RCIResortBannerViewController.m */,
 			);
 			path = ResortBanner;
 			sourceTree = "<group>";
@@ -629,6 +737,116 @@
 				03A46599200F88C200F750C1 /* ResortBanner */,
 			);
 			path = ResortDetails;
+			sourceTree = "<group>";
+		};
+		03D43A81203241600027D6F2 /* Offers */ = {
+			isa = PBXGroup;
+			children = (
+				03D43A85203241990027D6F2 /* RCIOffersViewController.h */,
+				03D43A86203241990027D6F2 /* RCIOffersViewController.m */,
+				03D43A87203241990027D6F2 /* RCIOffersViewController.xib */,
+			);
+			path = Offers;
+			sourceTree = "<group>";
+		};
+		03D43A82203241700027D6F2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				03D43A8A203241AD0027D6F2 /* RCISearchViewController.h */,
+				03D43A8B203241AD0027D6F2 /* RCISearchViewController.m */,
+				03D43A8C203241AD0027D6F2 /* RCISearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		03D43A83203241790027D6F2 /* Vacations */ = {
+			isa = PBXGroup;
+			children = (
+				03D43A8F203241C00027D6F2 /* RCIVacationsViewController.h */,
+				03D43A90203241C00027D6F2 /* RCIVacationsViewController.m */,
+				03D43A91203241C00027D6F2 /* RCIVacationsViewController.xib */,
+			);
+			path = Vacations;
+			sourceTree = "<group>";
+		};
+		03D43A84203241860027D6F2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				03D43A9720324BFD0027D6F2 /* RCIProfileViewController.h */,
+				03D43A9820324BFD0027D6F2 /* RCIProfileViewController.m */,
+				03D43A9920324BFD0027D6F2 /* RCIProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		03D43A9C20328AB90027D6F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				654BACE51FE2964200033FC0 /* LoginViewController.h */,
+				654BACE61FE2964200033FC0 /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		03D43A9D20328AC70027D6F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				655830931FFBAB5400DA1812 /* HomeViewController.h */,
+				655830941FFBAB5400DA1812 /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		03D43A9E20328B1C0027D6F2 /* TopTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				038C18E92008AD3400681523 /* RCITopTabViewController.h */,
+				038C18EA2008AD3400681523 /* RCITopTabViewController.m */,
+			);
+			path = TopTabBar;
+			sourceTree = "<group>";
+		};
+		03D43A9F20328B290027D6F2 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				654BACE21FE277D000033FC0 /* WelcomeViewController.h */,
+				654BACE31FE277D000033FC0 /* WelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		03D43AA020328C090027D6F2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				03F4DCE02033A2560027978C /* SearchScreen */,
+				03D43AA120328C140027D6F2 /* SearchParameter */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		03D43AA120328C140027D6F2 /* SearchParameter */ = {
+			isa = PBXGroup;
+			children = (
+				03D43AA220328C370027D6F2 /* RCISearchParameterTableViewCell.h */,
+				03D43AA320328C370027D6F2 /* RCISearchParameterTableViewCell.m */,
+				03D43AA420328C370027D6F2 /* RCISearchParameterTableViewCell.xib */,
+				03D43AAA20328CDF0027D6F2 /* RCISearchParameterHeader.h */,
+				03D43AAB20328CDF0027D6F2 /* RCISearchParameterHeader.m */,
+				03D43AAD20328CEA0027D6F2 /* RCISearchParameterHeader.xib */,
+			);
+			path = SearchParameter;
+			sourceTree = "<group>";
+		};
+		03F4DCE02033A2560027978C /* SearchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				03F4DCE42033A42A0027978C /* RCISearchResultTableViewCell.h */,
+				03F4DCE52033A42A0027978C /* RCISearchResultTableViewCell.m */,
+				03F4DCE62033A42A0027978C /* RCISearchResultTableViewCell.xib */,
+				03F4DCF12033E5590027978C /* RCISearchScreenSectionHeaderView.h */,
+				03F4DCF22033E5590027978C /* RCISearchScreenSectionHeaderView.m */,
+			);
+			path = SearchScreen;
 			sourceTree = "<group>";
 		};
 		654BACA11FE2687E00033FC0 = {
@@ -660,8 +878,6 @@
 				0323520720076EB800D358E1 /* Views */,
 				0323520620076EAE00D358E1 /* Models */,
 				654BACE11FE2778D00033FC0 /* ViewControllers */,
-				654BACB01FE2687E00033FC0 /* ViewController.h */,
-				654BACB11FE2687E00033FC0 /* ViewController.m */,
 				654BACBB1FE2687E00033FC0 /* Info.plist */,
 			);
 			path = RCIDemo;
@@ -688,15 +904,20 @@
 		654BACE11FE2778D00033FC0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				03A46595200F881600F750C1 /* ResortDetailControllers */,
-				654BACE21FE277D000033FC0 /* WelcomeViewController.h */,
-				654BACE31FE277D000033FC0 /* WelcomeViewController.m */,
-				654BACE51FE2964200033FC0 /* LoginViewController.h */,
-				654BACE61FE2964200033FC0 /* LoginViewController.m */,
-				655830931FFBAB5400DA1812 /* HomeViewController.h */,
-				655830941FFBAB5400DA1812 /* HomeViewController.m */,
-				038C18E92008AD3400681523 /* RCITopTabViewController.h */,
-				038C18EA2008AD3400681523 /* RCITopTabViewController.m */,
+				038FC1CD20353635000B79A5 /* TimeLine */,
+				038A1EBA20337A520062A1C1 /* SearchScreen */,
+				03D43A9F20328B290027D6F2 /* Welcome */,
+				03D43A9E20328B1C0027D6F2 /* TopTabBar */,
+				03D43A9D20328AC70027D6F2 /* Home */,
+				03D43A9C20328AB90027D6F2 /* Login */,
+				03A4659A200F88E600F750C1 /* ResortDetails */,
+				036F9033202469C800C1624A /* Check Availability */,
+				0373B2BF202851EF00D6E90A /* Search Results */,
+				03D43A84203241860027D6F2 /* Profile */,
+				03D43A83203241790027D6F2 /* Vacations */,
+				03D43A82203241700027D6F2 /* Search */,
+				03D43A81203241600027D6F2 /* Offers */,
+				030FD99A2029F7F100C66BC4 /* ResortBooking */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -809,15 +1030,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				036F90462024A2B000C1624A /* RCICheckAvailabilityFooterView.xib in Resources */,
+				038FC1D520353659000B79A5 /* RCITimeLineViewController.xib in Resources */,
 				0373B2CD2028683A00D6E90A /* RCISearchResultsTableViewCell.xib in Resources */,
 				0342FB92202BC4DE0014BD04 /* RCIDontRiskTableViewCell.xib in Resources */,
 				039ADF4A2011F1AC009C101A /* RCISimilarHotelTableViewCell.xib in Resources */,
 				036F90412024829800C1624A /* RCIResortBookingTableViewCell.xib in Resources */,
+				03D43A8E203241AD0027D6F2 /* RCISearchViewController.xib in Resources */,
+				03F4DCE82033A42A0027978C /* RCISearchResultTableViewCell.xib in Resources */,
 				038A0119202D3EB3000DF448 /* RCIParagraphTableViewCell.xib in Resources */,
+				03D43AAE20328CEA0027D6F2 /* RCISearchParameterHeader.xib in Resources */,
 				030FD9A72029F86200C66BC4 /* RCIResortBookingAddViewController.xib in Resources */,
 				038035C3202A79C300711DF6 /* RCIResortBookingConfirmViewController.xib in Resources */,
 				039ADF4F20120715009C101A /* RCIAboutThisResortTableViewCell.xib in Resources */,
+				03D43A89203241990027D6F2 /* RCIOffersViewController.xib in Resources */,
+				039CDE5C20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib in Resources */,
 				038035CC202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib in Resources */,
+				039CDE5720365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib in Resources */,
+				038A1EC220337AB40062A1C1 /* RCISearchScreenViewController.xib in Resources */,
 				038035D2202AA70000711DF6 /* RCICheckInTableViewCell.xib in Resources */,
 				031E9563201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib in Resources */,
 				039B8734200F90A4007ECE05 /* RCIPointValueTableViewCell.xib in Resources */,
@@ -825,13 +1054,18 @@
 				654BACBA1FE2687E00033FC0 /* LaunchScreen.storyboard in Resources */,
 				038A010E202D3795000DF448 /* RCICardInfoTableViewCell.xib in Resources */,
 				030FD9AC2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.xib in Resources */,
+				03D43AA620328C370027D6F2 /* RCISearchParameterTableViewCell.xib in Resources */,
+				039CDE472036144400D22D2E /* RCITimelineLocationTableViewCell.xib in Resources */,
 				654BACB71FE2687E00033FC0 /* Assets.xcassets in Resources */,
 				654BACB51FE2687E00033FC0 /* Main.storyboard in Resources */,
 				03ABEAFF202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.xib in Resources */,
 				0342FB8D202BC1160014BD04 /* RCITransactionTableViewCell.xib in Resources */,
 				039ADF64201207A2009C101A /* RCIAreaInfoTableViewCell.xib in Resources */,
+				039CDE4F20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.xib in Resources */,
+				039CDE642036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib in Resources */,
 				038A00FE202D06C7000DF448 /* RCIApplePayTableViewCell.xib in Resources */,
 				039ADF5F20120784009C101A /* RCIRoomDetailsTableViewCell.xib in Resources */,
+				03D43A93203241C00027D6F2 /* RCIVacationsViewController.xib in Resources */,
 				0373B2C42028521A00D6E90A /* RCISearchResultsViewController.xib in Resources */,
 				036F9038202469F800C1624A /* RCICheckAvailabilityViewController.xib in Resources */,
 				0342FB9F202BE7F70014BD04 /* RCIProtectInformationTableViewCell.xib in Resources */,
@@ -840,6 +1074,7 @@
 				036F902C2023210F00C1624A /* RCIResortOverViewFooterView.xib in Resources */,
 				03A46594200F7D1400F750C1 /* ResortAddressTableViewCell.xib in Resources */,
 				0342FB97202BE1F50014BD04 /* RCIAddProtectionPointTableViewCell.xib in Resources */,
+				03D43A9B20324BFD0027D6F2 /* RCIProfileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,9 +1102,9 @@
 				036F90442024A27100C1624A /* RCICheckAvailabilityFooterView.m in Sources */,
 				039ADF5E20120784009C101A /* RCIRoomDetailsTableViewCell.m in Sources */,
 				038035D1202AA70000711DF6 /* RCICheckInTableViewCell.m in Sources */,
-				654BACB21FE2687E00033FC0 /* ViewController.m in Sources */,
 				0342FB91202BC4DE0014BD04 /* RCIDontRiskTableViewCell.m in Sources */,
 				0373B2CC2028683A00D6E90A /* RCISearchResultsTableViewCell.m in Sources */,
+				03F4DCEB2033DBAE0027978C /* RCIRegion.m in Sources */,
 				0342FB8C202BC1160014BD04 /* RCITransactionTableViewCell.m in Sources */,
 				654BACE41FE277D000033FC0 /* WelcomeViewController.m in Sources */,
 				039ADF63201207A2009C101A /* RCIAreaInfoTableViewCell.m in Sources */,
@@ -882,10 +1117,13 @@
 				030FD9AB2029FBD700C66BC4 /* RCIResortBookingVerifyViewController.m in Sources */,
 				654BACAF1FE2687E00033FC0 /* AppDelegate.m in Sources */,
 				039ADF4E20120715009C101A /* RCIAboutThisResortTableViewCell.m in Sources */,
+				039CDE462036144400D22D2E /* RCITimelineLocationTableViewCell.m in Sources */,
 				038A0102202D0C45000DF448 /* RCICardDetailsTableViewCell.m in Sources */,
 				038C19002008CF1B00681523 /* RCIResortOverviewViewController.m in Sources */,
 				030FD98F2029AD1F00C66BC4 /* RCIResortBookingContainerView.m in Sources */,
 				030FD9962029AF5200C66BC4 /* RCIResortBookingSegmentItem.m in Sources */,
+				03F4DCE72033A42A0027978C /* RCISearchResultTableViewCell.m in Sources */,
+				038A1EC120337AB40062A1C1 /* RCISearchScreenViewController.m in Sources */,
 				038C18F72008C36C00681523 /* RCIResortBannerViewController.m in Sources */,
 				03ABEAFE202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m in Sources */,
 				036F902F2023539A00C1624A /* NSMutableArray+Utility.m in Sources */,
@@ -894,27 +1132,39 @@
 				654BACE71FE2964200033FC0 /* LoginViewController.m in Sources */,
 				036F9037202469F800C1624A /* RCICheckAvailabilityViewController.m in Sources */,
 				030FD98A20298DFB00C66BC4 /* RCIResortBookingContainerViewController.m in Sources */,
+				03D43A88203241990027D6F2 /* RCIOffersViewController.m in Sources */,
 				036F902A2023210300C1624A /* RCIResortOverViewFooterView.m in Sources */,
+				039CDE4E20364D4300D22D2E /* RCITimeLineTravelDateTableViewCell.m in Sources */,
+				038FC1D420353659000B79A5 /* RCITimeLineViewController.m in Sources */,
 				038C18F02008AE2700681523 /* RCITopTabBarView.m in Sources */,
 				038A0106202D2CC6000DF448 /* RCIResortBookingParentViewController.m in Sources */,
 				038035B9202A799200711DF6 /* RCIResortBookingPayViewController.m in Sources */,
+				03D43A9A20324BFD0027D6F2 /* RCIProfileViewController.m in Sources */,
 				030FD9992029BC6F00C66BC4 /* RCIResortBookingSegmentView.m in Sources */,
 				038C18EB2008AD3400681523 /* RCITopTabViewController.m in Sources */,
 				0342FB82202BB2340014BD04 /* RCIStaticTextTableViewCell.m in Sources */,
+				039CDE5B20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.m in Sources */,
 				038C19062008CF4500681523 /* RCIResortFlightOptionViewController.m in Sources */,
 				0312DBE9202A76430016AF41 /* RCIResortBookingFooterView.m in Sources */,
 				655830951FFBAB5400DA1812 /* HomeViewController.m in Sources */,
 				031E9562201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.m in Sources */,
 				039B8733200F90A4007ECE05 /* RCIPointValueTableViewCell.m in Sources */,
+				03D43A8D203241AD0027D6F2 /* RCISearchViewController.m in Sources */,
+				03D43AA520328C370027D6F2 /* RCISearchParameterTableViewCell.m in Sources */,
 				038A00FD202D06C7000DF448 /* RCIApplePayTableViewCell.m in Sources */,
 				038C18FA2008C3F200681523 /* RCIResortDetailContainerViewController.m in Sources */,
+				03F4DCF32033E5590027978C /* RCISearchScreenSectionHeaderView.m in Sources */,
+				039CDE5620365C2700D22D2E /* RCITimeLineStaticTableViewCell.m in Sources */,
+				03D43A92203241C00027D6F2 /* RCIVacationsViewController.m in Sources */,
 				038035C2202A79C300711DF6 /* RCIResortBookingConfirmViewController.m in Sources */,
 				039ADF492011F1AC009C101A /* RCISimilarHotelTableViewCell.m in Sources */,
 				038035CB202A9EB900711DF6 /* RCIResortDetailTableViewCell.m in Sources */,
+				03D43AAC20328CDF0027D6F2 /* RCISearchParameterHeader.m in Sources */,
 				03A4658B200F70E100F750C1 /* UIView+FrameHelper.m in Sources */,
 				0373B2C32028521A00D6E90A /* RCISearchResultsViewController.m in Sources */,
 				030FD9A62029F86200C66BC4 /* RCIResortBookingAddViewController.m in Sources */,
 				031E95692020B6640056E4E9 /* RCITableRow.m in Sources */,
+				039CDE632036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m in Sources */,
 				031E95662020B6530056E4E9 /* RCITableSection.m in Sources */,
 				03A46593200F7D1400F750C1 /* ResortAddressTableViewCell.m in Sources */,
 				038C18F32008AE4200681523 /* RCITopTabBarItem.m in Sources */,

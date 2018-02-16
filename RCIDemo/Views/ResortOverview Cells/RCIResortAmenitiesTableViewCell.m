@@ -7,12 +7,18 @@
 //
 
 #import "RCIResortAmenitiesTableViewCell.h"
+#import <CoreGraphics/CoreGraphics.h>
+
+@interface RCIResortAmenitiesTableViewCell()
+@property (nonatomic, weak) IBOutlet UIView *borderView;
+@end
 
 @implementation RCIResortAmenitiesTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    self.borderView.layer.borderColor = [UIColor darkGrayColor].CGColor;
+    self.borderView.layer.borderWidth = 0.5f;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

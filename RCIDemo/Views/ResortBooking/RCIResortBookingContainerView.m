@@ -35,7 +35,7 @@
 
 -(void)activateConstarints {
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[segmentView]|" options:0 metrics:nil views:@{@"segmentView":self.segmentView}]];
-    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-20-[segmentView(90)]" options:0 metrics:nil views:@{@"segmentView":self.segmentView}]];
+    [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[segmentView(64)]" options:0 metrics:nil views:@{@"segmentView":self.segmentView}]];
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[footerView]|" options:0 metrics:nil views:@{@"footerView":self.footerView}]];
     [NSLayoutConstraint activateConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[footerView(55)]|" options:0 metrics:nil views:@{@"footerView":self.footerView}]];
 
