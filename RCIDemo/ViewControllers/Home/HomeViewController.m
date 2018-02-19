@@ -121,8 +121,4 @@
     return cell;
 }
 
-- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    RCITimeLineViewController *container = [[RCITimeLineViewController alloc] init];
-    [self presentViewController:container animated:YES completion:nil];
-}
 @end

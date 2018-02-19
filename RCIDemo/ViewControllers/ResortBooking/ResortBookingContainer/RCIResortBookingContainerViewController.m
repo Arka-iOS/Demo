@@ -13,6 +13,7 @@
 #import "RCIResortBookingAddViewController.h"
 #import "RCIResortBookingFooterDelegate.h"
 #import "RCIResortBookingFooterView.h"
+#import "RCIPaymentStatusViewController.h"
 
 #define kFooterViewHeight 55
 #define ktopMargin 90
@@ -104,7 +105,10 @@
 }
 
 -(void)goToNextSegment:(RCIResortBookingFooterView*)footer {
-    if (self.selectedIndex == 3) return;
+    if (self.selectedIndex == 3) {
+        [self confirmPayment];
+        return;
+    }
     NSInteger newIndex = self.selectedIndex + 1;
     [self loadControllerAtIndex:newIndex];
     BOOL enablePrevious = newIndex > 0;
@@ -124,5 +128,10 @@
 
 -(void)cancel {
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)confirmPayment {
+    RCIPaymentStatusViewController *status = [[RCIPaymentStatusViewController alloc] initWithNibName:@"RCIPaymentStatusViewController" bundle:nil];
+    [self.navigationController pushViewController:status animated:YES];
 }
 @end

@@ -9,10 +9,12 @@
 
 #import "RCITimeLineViewController.h"
 #import "RCITimeLineTipsTableViewCell.h"
+#import "RCITimelineHeaderTableViewCell.h"
 #import "RCITimeLineStaticTableViewCell.h"
 #import "RCITimelineLocationTableViewCell.h"
 #import "RCITimeLineTravelDateTableViewCell.h"
 #import "RCITimelLineThingsToDoTableViewCell.h"
+#import "RCITimeLineFriendSuggestionTableViewCell.h"
 #import "RCITableSection.h"
 #import "RCITableRow.h"
 
@@ -21,6 +23,9 @@ static NSString *travelDateIdentifier = @"TimelineTravelCell";
 static NSString *staticCellIdentifier = @"TimelineStaticCell";
 static NSString *tipsCellIdentifier = @"TimelineTipsCell";
 static NSString *thingsToDoIdentifier = @"TimeLineThingsToDoCell";
+static NSString *headerCellIdentifier = @"TimeLineHeaderCell";
+static NSString *friendSuggestionCellIdentifier = @"TimeLineFriendSuggestion";
+
 
 
 @interface RCITimeLineViewController ()
@@ -44,50 +49,72 @@ static NSString *thingsToDoIdentifier = @"TimeLineThingsToDoCell";
     [self.timelineTableView registerNib:[UINib nibWithNibName:@"RCITimeLineTipsTableViewCell" bundle:nil] forCellReuseIdentifier:tipsCellIdentifier];
     [self.timelineTableView registerNib:[UINib nibWithNibName:@"RCITimeLineTipsTableViewCell" bundle:nil] forCellReuseIdentifier:tipsCellIdentifier];
     [self.timelineTableView registerNib:[UINib nibWithNibName:@"RCITimelLineThingsToDoTableViewCell" bundle:nil] forCellReuseIdentifier:thingsToDoIdentifier];
-
-    
+    [self.timelineTableView registerNib:[UINib nibWithNibName:@"RCITimelineHeaderTableViewCell" bundle:nil] forCellReuseIdentifier:headerCellIdentifier];
+    [self.timelineTableView registerNib:[UINib nibWithNibName:@"RCITimeLineFriendSuggestionTableViewCell" bundle:nil] forCellReuseIdentifier:friendSuggestionCellIdentifier];
 }
 
 -(NSMutableArray*)datasource {
     if (!_datasource) {
         _datasource = [NSMutableArray array];
+        
         RCITableSection *section1 = [[RCITableSection alloc]init];
-        section1.sectionHeaderHeight = 5.0f;
+        section1.sectionHeaderHeight = 1.0f;
         section1.sectionFooterHeight = 1.0f;
-        section1.rows = @[[self getLocationTableRow]];
+        section1.rows = @[[self getheaderTableRow]];
         [_datasource addObject:section1];
         
         RCITableSection *section2 = [[RCITableSection alloc]init];
         section2.sectionHeaderHeight = 1.0f;
         section2.sectionFooterHeight = 1.0f;
-        section2.rows = @[[self getTravelDateTableRow]];
+        section2.rows = @[[self getLocationTableRow]];
         [_datasource addObject:section2];
         
         RCITableSection *section3 = [[RCITableSection alloc]init];
         section3.sectionHeaderHeight = 1.0f;
         section3.sectionFooterHeight = 1.0f;
-        section3.rows = @[[self getTravelOptionTableRow]];
+        section3.rows = @[[self getTravelDateTableRow]];
         [_datasource addObject:section3];
         
         RCITableSection *section4 = [[RCITableSection alloc]init];
         section4.sectionHeaderHeight = 1.0f;
         section4.sectionFooterHeight = 1.0f;
-        section4.rows = @[[self getTBookingForGuestTableRow]];
+        section4.rows = @[[self getTravelOptionTableRow]];
         [_datasource addObject:section4];
         
         RCITableSection *section5 = [[RCITableSection alloc]init];
         section5.sectionHeaderHeight = 1.0f;
         section5.sectionFooterHeight = 1.0f;
-        section5.rows = @[[self getTipsForYourTableRow]];
+        section5.rows = @[[self getTBookingForGuestTableRow]];
         [_datasource addObject:section5];
         
         RCITableSection *section6 = [[RCITableSection alloc]init];
         section6.sectionHeaderHeight = 1.0f;
         section6.sectionFooterHeight = 1.0f;
-        section6.rows = @[[self getThingsToDoTableRow]];
+        section6.rows = @[[self getTipsForYourTableRow]];
         [_datasource addObject:section6];
+        
+        RCITableSection *section7 = [[RCITableSection alloc]init];
+        section7.sectionHeaderHeight = 1.0f;
+        section7.sectionFooterHeight = 10.0f;
+        section7.rows = @[[self getThingsToDoTableRow]];
+        [_datasource addObject:section7];
+        
+        RCITableSection *section8 = [[RCITableSection alloc]init];
+        section8.sectionHeaderHeight = 1.0f;
+        section8.sectionFooterHeight = 20.0f;
+        section8.rows = @[[self getFriendSuggestionTableRow]];
+        [_datasource addObject:section8];
     }
     return _datasource;
+}
+
+-(RCITableRow*)getheaderTableRow {
+    RCITableRow *row = [[RCITableRow alloc] init];
+    row.loadCell = ^UITableViewCell * (NSIndexPath *indexPath) {
+        RCITimelineHeaderTableViewCell *cell =  (RCITimelineHeaderTableViewCell*)[self.timelineTableView dequeueReusableCellWithIdentifier:headerCellIdentifier];
+        return cell;
+    };
+    return row;
 }
 
 -(RCITableRow*)getLocationTableRow {
@@ -151,6 +178,16 @@ static NSString *thingsToDoIdentifier = @"TimeLineThingsToDoCell";
     return row;
 }
 
+-(RCITableRow*)getFriendSuggestionTableRow {
+    RCITableRow *row = [[RCITableRow alloc] init];
+    row.loadCell = ^UITableViewCell * (NSIndexPath *indexPath) {
+        RCITimeLineFriendSuggestionTableViewCell *cell =  (RCITimeLineFriendSuggestionTableViewCell*)[self.timelineTableView dequeueReusableCellWithIdentifier:friendSuggestionCellIdentifier];
+        return cell;
+    };
+    return row;
+}
+
+
 -(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.datasource.count;
 }
@@ -167,13 +204,6 @@ static NSString *thingsToDoIdentifier = @"TimeLineThingsToDoCell";
     UITableViewCell *cell = row.loadCell(indexPath);
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return  cell;
-    
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    RCITableSection *section = [self.datasource objectAtIndex:indexPath.section];
-    RCITableRow *row = [section.rows objectAtIndex:indexPath.row];
-    row.didSelectRow(indexPath);
     
 }
 

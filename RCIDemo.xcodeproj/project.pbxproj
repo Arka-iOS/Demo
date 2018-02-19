@@ -39,6 +39,12 @@
 		036F90412024829800C1624A /* RCIResortBookingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F903F2024829800C1624A /* RCIResortBookingTableViewCell.xib */; };
 		036F90442024A27100C1624A /* RCICheckAvailabilityFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */; };
 		036F90462024A2B000C1624A /* RCICheckAvailabilityFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */; };
+		0371CD90203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371CD8E203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.m */; };
+		0371CD91203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0371CD8F203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.xib */; };
+		0371CD98203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371CD96203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.m */; };
+		0371CD99203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0371CD97203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.xib */; };
+		0371CD9E203A3BA300C8FCC3 /* RCIPaymentStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0371CD9C203A3BA300C8FCC3 /* RCIPaymentStatusViewController.m */; };
+		0371CD9F203A3BA300C8FCC3 /* RCIPaymentStatusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0371CD9D203A3BA300C8FCC3 /* RCIPaymentStatusViewController.xib */; };
 		0373B2C32028521A00D6E90A /* RCISearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373B2C12028521A00D6E90A /* RCISearchResultsViewController.m */; };
 		0373B2C42028521A00D6E90A /* RCISearchResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0373B2C22028521A00D6E90A /* RCISearchResultsViewController.xib */; };
 		0373B2CC2028683A00D6E90A /* RCISearchResultsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373B2CA2028683A00D6E90A /* RCISearchResultsTableViewCell.m */; };
@@ -199,6 +205,15 @@
 		036F90422024A27100C1624A /* RCICheckAvailabilityFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCICheckAvailabilityFooterView.h; sourceTree = "<group>"; };
 		036F90432024A27100C1624A /* RCICheckAvailabilityFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCICheckAvailabilityFooterView.m; sourceTree = "<group>"; };
 		036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCICheckAvailabilityFooterView.xib; sourceTree = "<group>"; };
+		0371CD8D203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimelineHeaderTableViewCell.h; sourceTree = "<group>"; };
+		0371CD8E203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimelineHeaderTableViewCell.m; sourceTree = "<group>"; };
+		0371CD8F203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimelineHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		0371CD95203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCITimeLineFriendSuggestionTableViewCell.h; sourceTree = "<group>"; };
+		0371CD96203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCITimeLineFriendSuggestionTableViewCell.m; sourceTree = "<group>"; };
+		0371CD97203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCITimeLineFriendSuggestionTableViewCell.xib; sourceTree = "<group>"; };
+		0371CD9B203A3BA300C8FCC3 /* RCIPaymentStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCIPaymentStatusViewController.h; sourceTree = "<group>"; };
+		0371CD9C203A3BA300C8FCC3 /* RCIPaymentStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCIPaymentStatusViewController.m; sourceTree = "<group>"; };
+		0371CD9D203A3BA300C8FCC3 /* RCIPaymentStatusViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCIPaymentStatusViewController.xib; sourceTree = "<group>"; };
 		0373B2C02028521A00D6E90A /* RCISearchResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCISearchResultsViewController.h; sourceTree = "<group>"; };
 		0373B2C12028521A00D6E90A /* RCISearchResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCISearchResultsViewController.m; sourceTree = "<group>"; };
 		0373B2C22028521A00D6E90A /* RCISearchResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RCISearchResultsViewController.xib; sourceTree = "<group>"; };
@@ -396,6 +411,7 @@
 		030FD99A2029F7F100C66BC4 /* ResortBooking */ = {
 			isa = PBXGroup;
 			children = (
+				0371CD9A203A3B3C00C8FCC3 /* PaymentStatus */,
 				038035BB202A799A00711DF6 /* ResortBookingConfirm */,
 				038035B2202A796A00711DF6 /* ResortBookingPay */,
 				030FD9A12029F83B00C66BC4 /* ResortBooking Add */,
@@ -497,6 +513,16 @@
 				036F90452024A2B000C1624A /* RCICheckAvailabilityFooterView.xib */,
 			);
 			path = CheckAvailability;
+			sourceTree = "<group>";
+		};
+		0371CD9A203A3B3C00C8FCC3 /* PaymentStatus */ = {
+			isa = PBXGroup;
+			children = (
+				0371CD9B203A3BA300C8FCC3 /* RCIPaymentStatusViewController.h */,
+				0371CD9C203A3BA300C8FCC3 /* RCIPaymentStatusViewController.m */,
+				0371CD9D203A3BA300C8FCC3 /* RCIPaymentStatusViewController.xib */,
+			);
+			path = PaymentStatus;
 			sourceTree = "<group>";
 		};
 		03730005200F41CC0011773E /* TopTabBar */ = {
@@ -641,6 +667,12 @@
 				039CDE602036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.h */,
 				039CDE612036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.m */,
 				039CDE622036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib */,
+				0371CD8D203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.h */,
+				0371CD8E203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.m */,
+				0371CD8F203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.xib */,
+				0371CD95203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.h */,
+				0371CD96203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.m */,
+				0371CD97203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.xib */,
 			);
 			path = TimeLine;
 			sourceTree = "<group>";
@@ -1036,6 +1068,7 @@
 				039ADF4A2011F1AC009C101A /* RCISimilarHotelTableViewCell.xib in Resources */,
 				036F90412024829800C1624A /* RCIResortBookingTableViewCell.xib in Resources */,
 				03D43A8E203241AD0027D6F2 /* RCISearchViewController.xib in Resources */,
+				0371CD9F203A3BA300C8FCC3 /* RCIPaymentStatusViewController.xib in Resources */,
 				03F4DCE82033A42A0027978C /* RCISearchResultTableViewCell.xib in Resources */,
 				038A0119202D3EB3000DF448 /* RCIParagraphTableViewCell.xib in Resources */,
 				03D43AAE20328CEA0027D6F2 /* RCISearchParameterHeader.xib in Resources */,
@@ -1046,6 +1079,7 @@
 				039CDE5C20366F6E00D22D2E /* RCITimeLineTipsTableViewCell.xib in Resources */,
 				038035CC202A9EB900711DF6 /* RCIResortDetailTableViewCell.xib in Resources */,
 				039CDE5720365C2700D22D2E /* RCITimeLineStaticTableViewCell.xib in Resources */,
+				0371CD91203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.xib in Resources */,
 				038A1EC220337AB40062A1C1 /* RCISearchScreenViewController.xib in Resources */,
 				038035D2202AA70000711DF6 /* RCICheckInTableViewCell.xib in Resources */,
 				031E9563201F52DC0056E4E9 /* RCIResortAmenitiesTableViewCell.xib in Resources */,
@@ -1065,6 +1099,7 @@
 				039CDE642036761900D22D2E /* RCITimelLineThingsToDoTableViewCell.xib in Resources */,
 				038A00FE202D06C7000DF448 /* RCIApplePayTableViewCell.xib in Resources */,
 				039ADF5F20120784009C101A /* RCIRoomDetailsTableViewCell.xib in Resources */,
+				0371CD99203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.xib in Resources */,
 				03D43A93203241C00027D6F2 /* RCIVacationsViewController.xib in Resources */,
 				0373B2C42028521A00D6E90A /* RCISearchResultsViewController.xib in Resources */,
 				036F9038202469F800C1624A /* RCICheckAvailabilityViewController.xib in Resources */,
@@ -1128,6 +1163,7 @@
 				03ABEAFE202BA6A90012E7DF /* RCITransactionSummaryTableViewCell.m in Sources */,
 				036F902F2023539A00C1624A /* NSMutableArray+Utility.m in Sources */,
 				038C18FD2008CD4200681523 /* RCIResortDetailViewController.m in Sources */,
+				0371CD98203A18C900C8FCC3 /* RCITimeLineFriendSuggestionTableViewCell.m in Sources */,
 				036F90402024829800C1624A /* RCIResortBookingTableViewCell.m in Sources */,
 				654BACE71FE2964200033FC0 /* LoginViewController.m in Sources */,
 				036F9037202469F800C1624A /* RCICheckAvailabilityViewController.m in Sources */,
@@ -1139,6 +1175,7 @@
 				038C18F02008AE2700681523 /* RCITopTabBarView.m in Sources */,
 				038A0106202D2CC6000DF448 /* RCIResortBookingParentViewController.m in Sources */,
 				038035B9202A799200711DF6 /* RCIResortBookingPayViewController.m in Sources */,
+				0371CD90203A080300C8FCC3 /* RCITimelineHeaderTableViewCell.m in Sources */,
 				03D43A9A20324BFD0027D6F2 /* RCIProfileViewController.m in Sources */,
 				030FD9992029BC6F00C66BC4 /* RCIResortBookingSegmentView.m in Sources */,
 				038C18EB2008AD3400681523 /* RCITopTabViewController.m in Sources */,
@@ -1161,6 +1198,7 @@
 				038035CB202A9EB900711DF6 /* RCIResortDetailTableViewCell.m in Sources */,
 				03D43AAC20328CDF0027D6F2 /* RCISearchParameterHeader.m in Sources */,
 				03A4658B200F70E100F750C1 /* UIView+FrameHelper.m in Sources */,
+				0371CD9E203A3BA300C8FCC3 /* RCIPaymentStatusViewController.m in Sources */,
 				0373B2C32028521A00D6E90A /* RCISearchResultsViewController.m in Sources */,
 				030FD9A62029F86200C66BC4 /* RCIResortBookingAddViewController.m in Sources */,
 				031E95692020B6640056E4E9 /* RCITableRow.m in Sources */,
